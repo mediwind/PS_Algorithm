@@ -1,0 +1,29 @@
+name: Create Issue for Commit
+
+on:
+  push:
+    branches:
+      - main  # or the name of your default branch
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get commit URL
+        id: commit
+        run: echo "::set-output name=url::https://github.com/$GITHUB_REPOSITORY/commit/$(git rev-parse HEAD)"
+        shell: bash
+
+      - name: Create Issue
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/{owner}/{repo}/issues
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.repository }}
+          title: New commit
+          body: New commit: ${{ steps.commit.outputs.url }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
