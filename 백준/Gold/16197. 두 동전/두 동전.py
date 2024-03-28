@@ -26,6 +26,8 @@ def BFS(coin):
                 return cnt + 1
             else: # 이 else까지 왔다는 것은 coin_1, coin_2 모두 보드 바깥으로 떨어졌다는 의미
                 continue
+    
+    return -1
 
 
 dx = [-1, 0, 1, 0]
