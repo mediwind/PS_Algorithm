@@ -1,4 +1,6 @@
-# 10422 
+import sys
+input = sys.stdin.readline
+
 dy = [0 for _ in range(5001)]
 dy[0] = 1
 mod = 1000000007
