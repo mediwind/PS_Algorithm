@@ -14,10 +14,7 @@ class Solution:
                     r -= 1
                 else:
                     result.append((nums[i], nums[l], nums[r]))
-                    while l < r and nums[l] == nums[l + 1]:
-                        l += 1
-                    while l < r and nums[r] == nums[r - 1]:
-                        r -= 1
                     l += 1
-                    r -= 1
+                    while l < r and nums[l] == nums[l - 1]:
+                        l += 1
         return result
