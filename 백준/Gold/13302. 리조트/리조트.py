@@ -6,7 +6,7 @@ else:
     not_go = set(map(int, input().split()))
 
 coupon = 0
-dy = [[float('inf') for _ in range(105)] for _ in range(105)]
+dy = [[float('inf') for _ in range(106)] for _ in range(106)]
 dy[0][0] = 0
 
 for i in range(n + 1):
