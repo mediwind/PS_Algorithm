@@ -1,23 +1,38 @@
-import math
+from math import ceil
+
 import sys
 input = sys.stdin.readline
 
-N, Hatk = map(int, input().split())
-HcurHP = HmaxHP = dmg = 0
 
-for _ in range(N):
-    t, a, h = map(int, input().split())
-    
-    if t == 1:
-        dmg = ((math.ceil(h / Hatk) - 1) * a)
-        
-        if HcurHP >= dmg:
-            HcurHP -= dmg
+def check(attk, max_hp):
+    curr_hp = max_hp
+    for t, a, h in rooms:
+        if t == 1:
+            turn = h//attk if not h%attk else h//attk + 1
+            curr_hp -= a * (turn - 1)
         else:
-            HmaxHP += dmg - HcurHP
-            HcurHP = 0
-    else:
-        Hatk += a
-        HcurHP = min(HcurHP + h, HmaxHP)
+            attk += a
+            curr_hp += h
+            if curr_hp > max_hp:
+                curr_hp = max_hp
+        
+        if curr_hp <= 0:
+            return False
+    
+    return True
 
-print(HmaxHP + 1)
+
+n, attk = map(int, input().split())
+rooms = [list(map(int, input().split())) for _ in range(n)]
+
+lt, rt = 1, n*(1_000_000**2)
+ans = 0
+while lt <= rt:
+    mid = (lt + rt) // 2
+    if check(attk, mid):
+        rt = mid - 1
+        ans = mid
+    else:
+        lt = mid + 1
+
+print(ans)
