@@ -5,7 +5,7 @@ length = len(s)
 hashing = set()
 ans = float('-inf')
 lt, rt = 0, 0
-while lt < length - 1:
+while True:
     if rt == length:
         ans = max(ans, rt - lt)
         break
