@@ -1,7 +1,8 @@
 from collections import defaultdict
 
 import heapq
-# input = sys.stdin.readline
+import sys
+input = sys.stdin.readline
 
 N, K, M = map(int, input().split())
 INF = float('inf')
