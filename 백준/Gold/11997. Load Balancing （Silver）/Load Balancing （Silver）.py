@@ -37,6 +37,7 @@ by_x.sort()
 by_y = sorted(by_x, key = lambda x: x[1])
 
 ans = float('inf')
+# 현재 수직선인 x_line보다 왼쪽에 있는 소들의 수
 x_line_at = 0
 while x_line_at < len(by_x):
     x_line = by_x[x_line_at][0] + 1
