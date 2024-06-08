@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 # 입력을 받습니다.
 n = int(input())
 grid = [list(map(int, input().split())) for _ in range(n)]
