@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 degree = [0 for _ in range(N + 1)]
 for _ in range(N - 1):
