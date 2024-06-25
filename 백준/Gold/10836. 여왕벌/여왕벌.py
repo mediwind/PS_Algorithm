@@ -2,32 +2,25 @@ import sys
 input = sys.stdin.readline
 
 
-def growing(growth):
-    arr = [0] * growth[0]
-    arr.extend([1] * growth[1])
-    arr.extend([2] * growth[2])
-#     print(arr)
-    
-    idx = 0
-    for i in range(m - 1, -1, -1):
-        board[i][0] += arr[idx]
-        idx += 1
-    
-    for i in range(1, m):
-        board[0][i] += arr[idx]
-        idx += 1
+def growing():
+    m, n = map(int, input().split())
+    larva = [1] * (2 * m - 1)
+
+    for _ in range(n):
+        zero, one, two = map(int, input().split())
+
+        for j in range(zero, zero + one):
+            larva[j] += 1
+        for j in range(zero + one, len(larva)):
+            larva[j] += 2
+
+    return m, larva
 
 
-m, n = map(int, input().split())
-board = [[1 for _ in range(m)] for _ in range(m)]
+m, larva = growing()
 
-for _ in range(n):
-    growth = list(map(int, input().split()))
-    growing(growth)
-
-for i in range(1, m):
+for i in range(m):
+    print(larva[m - i - 1], end=' ')
     for j in range(1, m):
-        board[i][j] = max(board[i][j - 1], board[i - 1][j - 1], board[i - 1][j])
-
-for bd in board:
-    print(*bd)
+        print(larva[m + j - 1], end=' ')
+    print()
