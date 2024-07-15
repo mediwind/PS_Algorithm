@@ -1,11 +1,15 @@
-n = int(input())
+# 14453 Hoof, Paper, Scissors (Silver)
+import sys
+input = sys.stdin.readline
+
+n = int(input().strip())
 
 # prefix[H][i]는 i번째 게임까지 H가 '등장'한 수
 prefix = [[0 for _ in range(n)] for _ in range(3)]
 H, P, S = 0, 1, 2
 h, p, s = 0, 0, 0
 for i in range(n):
-    ch = input()
+    ch = input().strip()
     if ch == 'H':
         h += 1
     elif ch == 'P':
