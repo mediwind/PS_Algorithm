@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 width = 1000
 barn = [[0 for _ in range(width + 1)] for _ in range(width + 1)]
 n, k = map(int, input().split())
