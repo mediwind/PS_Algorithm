@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 num_cows = int(input())
 herd_positions = sorted(int(input()) for _ in range(num_cows))
 
