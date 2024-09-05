@@ -1,4 +1,6 @@
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 def BFS(n, m, board):
     ch = [[[False, False] for _ in range(m)] for _ in range(n)]
