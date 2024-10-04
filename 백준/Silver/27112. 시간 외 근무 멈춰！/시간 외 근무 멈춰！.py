@@ -1,3 +1,7 @@
+import sys
+input = sys.stdin.readline
+
+
 def main():
     # 작업의 개수를 입력받음
     n = int(input())
@@ -41,6 +45,7 @@ def main():
 
     # 모든 작업을 완료하기 위해 필요한 최소 추가 근무일 출력
     print(extra_days)
+
 
 if __name__ == "__main__":
     main()
