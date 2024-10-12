@@ -1,25 +1,19 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        # left_product와 right_product는 각각 *_product[i] 바로 왼쪽 직전과 오른쪽 직전까지의 누적곱을 의미
+        left_product = [1 for _ in range(n)]
+        right_product = [1 for _ in range(n)]
         answer = list()
-        if nums == [0] * len(nums):
-            answer = [0] * len(nums)
-            return answer
+
+        for i in range(1, n):
+            left_product[i] = nums[i - 1] * left_product[i - 1]
         
-        res = 1
-        flag = False
-        for num in nums:
-            if num:
-                res *= num
-            if not num:
-                flag = True
+        for i in range(n - 2, -1, -1):
+            right_product[i] = nums[i + 1] * right_product[i + 1]
         
-        for num in nums:
-            if num:
-                if flag:
-                    answer.append(0)
-                else:
-                    answer.append(res//num)
-            else:
-                answer.append(res)
+        for i in range(n):
+            tmp = left_product[i] * right_product[i]
+            answer.append(tmp)
         
         return answer
