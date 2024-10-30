@@ -1,19 +1,14 @@
-class Solution:
-    def pivotIndex(self, nums: List[int]) -> int:
-        n = len(nums)
-
-        to_left = [0 for _ in range(n)]
-        to_left[0] = nums[0]
-        for i in range(1, n):
-            to_left[i] = nums[i] + to_left[i - 1]
-        
-        to_right = [0 for _ in range(n)]
-        to_right[-1] = nums[-1]
-        for i in range(n - 2, -1, -1):
-            to_right[i] = nums[i] + to_right[i + 1]
-        
-        for i in range(n):
-            if to_left[i] == to_right[i]:
-                return i
-        
-        return -1
+# Time Complexity : O(n)
+# Space Complexity : O(1)
+class Solution(object):
+    def pivotIndex(self, nums):
+        # Initialize leftSum & rightSum to store the sum of all the numbers strictly to the index's left & right respectively...
+        leftSum, rightSum = 0, sum(nums)
+        # Traverse elements through the loop...
+        for idx, ele in enumerate(nums):
+            rightSum -= ele
+            # If the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right...
+            if leftSum == rightSum:
+                return idx      # Return the pivot index...
+            leftSum += ele
+        return -1       # If there is no index that satisfies the conditions in the problem statement...
