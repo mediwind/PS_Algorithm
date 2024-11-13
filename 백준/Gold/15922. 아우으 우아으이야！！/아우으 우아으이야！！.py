@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 n = int(input())
 intervals = [list(map(int, input().split())) for _ in range(n)]
 
