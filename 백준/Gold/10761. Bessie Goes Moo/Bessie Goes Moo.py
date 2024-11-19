@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 n = int(input())
 num = [[0] * 7 for _ in range(256)]
 
