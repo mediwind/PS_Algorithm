@@ -15,16 +15,15 @@ class Solution:
         while Q:
             lenQ = len(Q)
             floor_sum = 0
-            valid = False
             for _ in range(lenQ):
                 node = Q.popleft()
-                if node:
-                    valid = True
-                    floor_sum += node.val
+                floor_sum += node.val
+                if node.left:
                     Q.append(node.left)
+                if node.right:
                     Q.append(node.right)
             
-            if valid and maxi < floor_sum:
+            if maxi < floor_sum:
                 maxi = floor_sum
                 ans_floor = now_floor
             
