@@ -2,36 +2,41 @@ import sys
 input = sys.stdin.readline
 
 
-def need(width):
-    # 색종이 폭이 width일 때, 다 덮기 위해 필요한 종이의 수
-    prev = -1
-    ret = 0
-    for pos in arr:
-        if prev == -1:
-            # 처음 종이를 놓는 경우, [prev, prev+width) 까지 커버 가능
-            prev = pos
-            ret += 1
-        elif prev + width <= pos:
-            prev = pos
-            ret += 1
-    return ret
+def cal_paper_num(col_list, sz):
+    result = 1
+    prev = col_list[0] - 1
+    if len(col_list) > 1:
+        for c in col_list:
+            if prev + sz < c:
+                result += 1
+                prev = c - 1
 
-r, c = map(int, input().split())
-n = int(input())
-s = int(input())
-spaces = [list(map(int, input().split())) for _ in range(s)]
-arr = [col for row, col in sorted(spaces, key=lambda x: x[1])]
+    return result
 
-max_height = max(spaces, key=lambda x: x[0])[0]
-l = max_height
-r = 1000000  # range = [l, r]
 
-while l < r:
-    m = (l + r) // 2
-    if need(m) <= n:
-        # 가능한 경우
-        r = m
+R, C = map(int, input().split())
+needed_paper = int(input())
+N = int(input())
+
+max_row = 0
+col_list = list()
+for _ in range(N):
+    r, c = map(int, input().split())
+    max_row = max(r, max_row)
+    col_list.append(c)
+
+col_list.sort()
+
+start, end = max_row, R
+
+result = end
+while start <= end:
+    mid = (start + end) // 2
+    used_paper = cal_paper_num(col_list, mid)
+    if used_paper <= needed_paper:
+        result = min(result, mid)
+        end = mid - 1
     else:
-        l = m + 1
+        start = mid + 1
 
-print(l)
+print(result)
