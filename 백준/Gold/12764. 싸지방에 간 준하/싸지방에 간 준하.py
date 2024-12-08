@@ -6,33 +6,35 @@ n = int(input())
 arr = [list(map(int, input().split())) for _ in range(n)]
 arr.sort(key=lambda x: x[0])
 
-# 사용 가능한 자리를 위한 최소 힙
-available_seats = list()
-# 현재 사용 중인 자리를 위한 최소 힙 (종료 시간, 자리 번호)
+# 현재 사용 중인 자리 (종료 시간, 자리 번호)
 used_seats = list()
+# 사용 가능한 자리 번호
+available_seats = list()
+# 각 자리별 사용 횟수
+seat_usage = list()
 
-# 첫 번째 자리를 초기화
-hq.heappush(available_seats, 0)
-seat_usage = [0] * n
+# 첫 번째 사람 처리
+hq.heappush(used_seats, (arr[0][1], 0))
+seat_usage.append(1)
 
-for start, end in arr:
-    # 현재 시간에 사용이 끝난 자리를 다시 사용 가능하게 만듦
+for i in range(1, n):
+    start, end = arr[i]
+    
+    # 사용이 끝난 자리를 available_seats로 이동
     while used_seats and used_seats[0][0] <= start:
-        _, seat = hq.heappop(used_seats)
-        hq.heappush(available_seats, seat)
+        _, seat_number = hq.heappop(used_seats)
+        hq.heappush(available_seats, seat_number)
     
-    # 가장 작은 번호의 사용 가능한 자리를 할당
-    seat = hq.heappop(available_seats)
-    seat_usage[seat] += 1
-    hq.heappush(used_seats, (end, seat))
-    
-    # 사용 가능한 자리가 없으면 새로운 자리를 추가
-    if not available_seats:
-        hq.heappush(available_seats, len(seat_usage))
-        seat_usage.append(0)
-
-# 사용되지 않은 자리를 필터링
-seat_usage = [usage for usage in seat_usage if usage > 0]
+    if available_seats:
+        # 기존 자리를 사용할 때
+        seat_number = hq.heappop(available_seats)
+        hq.heappush(used_seats, (end, seat_number))
+        seat_usage[seat_number] += 1
+    else:
+        # 새로운 자리가 필요할 때
+        seat_number = len(seat_usage)
+        hq.heappush(used_seats, (end, seat_number))
+        seat_usage.append(1)
 
 print(len(seat_usage))
 print(*seat_usage)
