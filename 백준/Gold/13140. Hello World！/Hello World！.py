@@ -9,7 +9,6 @@ for perm in permutations(range(10), 7):
     if h == 0 or w == 0:
         continue
     if line_1 + line_2 == n:
-        max_length = max(len(str(line_1)), len(str(line_2)), len(str(n)))
         print(f"  {line_1}")
         print(f"+ {line_2}")
         print("-------")
