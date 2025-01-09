@@ -1,3 +1,7 @@
+import sys
+input = sys.stdin.readline
+
+
 def dfs(graph, start, cut, visited):
     stack = [start]
     while stack:
