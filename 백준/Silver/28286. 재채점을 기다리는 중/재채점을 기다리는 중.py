@@ -1,9 +1,6 @@
 def DFS(L, arr):
     global ans
     
-    if L > k:
-        return
-    
     cnt = 0
     
     # 그냥 놓아두기 & 정답 개수 세기
