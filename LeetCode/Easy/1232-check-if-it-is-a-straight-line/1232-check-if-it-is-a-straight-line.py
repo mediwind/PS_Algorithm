@@ -2,6 +2,7 @@ class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         n = len(coordinates)
         res = set()
+        
         for i in range(n - 1):
             x1, y1 = coordinates[i]
             x2, y2 = coordinates[i + 1]
