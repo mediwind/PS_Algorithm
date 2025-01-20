@@ -1,22 +1,13 @@
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
-        # Create a dictionary to store the start points of intervals and their indices
-        start_points = {}
-        for i, interval in enumerate(intervals):
-            start_points[interval[0]] = i
-        
-        # Sort the intervals based on their start points
-        sorted_intervals = sorted(intervals, key=lambda x: x[0])
-        
-        # Initialize the result list with -1 for all intervals
-        result = [-1] * len(intervals)
-        
-        # Iterate over the sorted intervals
-        for i, interval in enumerate(intervals):
-            # Find the index of the right interval using binary search
-            index = bisect_left(sorted_intervals, [interval[1], -float('inf')])
-            # If a right interval is found, update the result list with its index
-            if index != len(intervals):
-                result[i] = start_points[sorted_intervals[index][0]]
-        
-        return result
+        n = len(intervals)
+
+        l = sorted((e[0], i) for i, e in enumerate(intervals))
+        res = [-1 for _ in range(n)]
+
+        for i, e in enumerate(intervals):
+            r = bisect.bisect_left(l, (e[1],))
+            if r < len(l):
+                res[i] = l[r][1]
+
+        return res
