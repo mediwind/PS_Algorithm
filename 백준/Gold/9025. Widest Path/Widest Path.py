@@ -3,7 +3,7 @@ import sys
 input = sys.stdin.readline
 
 
-def wildest_path(x):
+def widest_path(x):
     # -inf도 가능하지만 0이 코드의 간결함과 가독성 측면에서 더 권장
     bandwidth = [0 for _ in range(n + 1)]
     # 0이 아닌 inf로 두어야 시작 노드 x의 첫 간선 대역폭이 그대로 반영됨
@@ -21,6 +21,9 @@ def wildest_path(x):
         if bandwidth[node] > current_bandwidth:
             continue
         
+        if node == t:
+            return bandwidth[t]
+        
         for neighbor, weight in graph[node]:
             tmp = min(current_bandwidth, weight)
             
@@ -28,7 +31,7 @@ def wildest_path(x):
                 bandwidth[neighbor] = tmp
                 hq.heappush(Q, (-tmp, neighbor))
     
-    return bandwidth
+    return 0
 
 
 t = int(input())
@@ -41,5 +44,4 @@ for _ in range(t):
         graph[a].append((b, c))
         graph[b].append((a, c))
 
-    res = wildest_path(s)
-    print(res[t])
+    print(widest_path(s))
