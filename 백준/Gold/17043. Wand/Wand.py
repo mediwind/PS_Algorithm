@@ -1,3 +1,7 @@
+import sys
+input = sys.stdin.readline
+
+
 def dfs(cur):
     if cur in ch:
         return
@@ -15,11 +19,12 @@ for _ in range(M):
     graph[b].append(a)
 
 ch = set()
-res = [0] * (N + 1)
+res = [0 for _ in range(N + 1)]
 
 if not graph[1]:
     res[1] = 1
 
 for second in graph[1]:
     dfs(second)
+
 print(*res[1:], sep="")
