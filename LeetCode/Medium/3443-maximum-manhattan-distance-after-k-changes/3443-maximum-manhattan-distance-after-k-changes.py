@@ -1,23 +1,23 @@
 class Solution:
     def maxDistance(self, s: str, k: int) -> int:
-        def calc_max_dist(s: str, k: int, directions: str) -> int:
-            max_dist = 0
-            curr_pos = 0
-            change_count = 0
-
-            for move in s:
-                if move in directions:
-                    curr_pos += 1
-                else:
-                    curr_pos -= 1
-                    change_count += 1
-                max_dist = max(max_dist, curr_pos + 2 * min(k, change_count))
-
-            return max_dist
-
-        return max(
-            calc_max_dist(s, k, 'NE'),
-            calc_max_dist(s, k, 'NW'),
-            calc_max_dist(s, k, 'SE'),
-            calc_max_dist(s, k, 'SW')
-        )
+        ans = 0
+        north = south = east = west = 0
+        
+        for i in range(len(s)):
+            c = s[i]
+            if c == 'N':
+                north += 1
+            elif c == 'S':
+                south += 1
+            elif c == 'E':
+                east += 1
+            elif c == 'W':
+                west += 1
+            
+            x = abs(north - south)
+            y = abs(east - west)
+            MD = x + y
+            dis = MD + min(2 * k, i + 1 - MD)
+            ans = max(ans, dis)
+        
+        return ans
