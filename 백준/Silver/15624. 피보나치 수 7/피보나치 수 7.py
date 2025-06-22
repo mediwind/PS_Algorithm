@@ -1,13 +1,16 @@
+import sys
+
 MOD = 1000000007
 n = int(input())
 
-num1, num2 = 0, 1
-res = 0
-order = 2
-while order <= n:
-    res = (num1 + num2) % MOD
-    num1 = num2
-    num2 = res
-    order += 1
+if n == 0:
+    print(0)
+    sys.exit(0)
 
-print(res % MOD)
+arr = [0 for _ in range(n + 1)]
+arr[1] = 1
+
+for i in range(2, n + 1):
+    arr[i] = (arr[i - 2] + arr[i - 1]) % MOD
+
+print(arr[n])
