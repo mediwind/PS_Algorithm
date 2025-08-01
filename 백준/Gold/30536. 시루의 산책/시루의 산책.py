@@ -26,6 +26,7 @@ for pi, ri in zip(P, other_R):
                 contaminated[j] = 1
 
 # 2) 시루 냄새 반경 R0 기준으로 인접 리스트 한 번만 계산
+# 간선이 직접 input되지 않아도 그래프를 사용할 수 있도록 하는 유용한 테크닉
 R0_sq = R0 * R0
 adj = [list() for _ in range(N)]
 for i in range(N):
