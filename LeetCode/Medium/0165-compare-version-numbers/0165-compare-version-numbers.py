@@ -1,6 +1,7 @@
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         from itertools import zip_longest
+        
         nums_1 = version1.split('.')
         nums_2 = version2.split('.')
 
