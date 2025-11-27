@@ -1,8 +1,7 @@
 import sys
+input = sys.stdin.readline
 
-sys.setrecursionlimit(10000)
-
-S = sys.stdin.readline().strip()
+S = input().strip()
 pos = 0
 
 def parse():
@@ -36,44 +35,50 @@ def build(node, depth):
     _, left, right = node
     lc = build(left, depth + 1)
     rc = build(right, depth + 1)
-    leafcnt[node] = lc + rc
-    return lc + rc
+    total = lc + rc
+    leafcnt[node] = total
+    return total
 
 total_leaves = build(root, 0)
 wins = {}
-for line in sys.stdin:
-    line = line.strip()
+lines_read = 0
+while lines_read < total_leaves:
+    try:
+        line = input()
+    except EOFError:
+        break
     if not line:
         continue
-    a, v = line.split()
-    v = int(v)
-    if a in wins:
-        print("No")
-        sys.exit(0)
+    parts = line.strip().split()
+    if not parts:
+        continue
+    a = parts[0]
+    v = int(parts[1])
     wins[a] = v
+    lines_read += 1
 
 if set(wins.keys()) != set(depths.keys()):
     print("No")
-    sys.exit(0)
+    raise SystemExit
 
 total_matches = total_leaves - 1
 if sum(wins.values()) != total_matches:
     print("No")
-    sys.exit(0)
+    raise SystemExit
 
 for ch, depth in depths.items():
-    if wins[ch] > depth:
+    if wins.get(ch, 0) > depth:
         print("No")
-        sys.exit(0)
+        raise SystemExit
 
-def solve(node, depth):
+def solve_sub(node):
     t = node[0]
     if t == 'leaf':
         ch = node[1]
         return wins[ch], wins[ch], 1
-    _, left, right = node
-    sumL, bestL, cntL = solve(left, depth + 1)
-    sumR, bestR, cntR = solve(right, depth + 1)
+    _, L, R = node
+    sumL, bestL, cntL = solve_sub(L)
+    sumR, bestR, cntR = solve_sub(R)
     bestL -= 1
     bestR -= 1
     if bestL > bestR:
@@ -90,11 +95,11 @@ def solve(node, depth):
     extra = total - need
     if extra < 0 or extra != best:
         print("No")
-        sys.exit(0)
+        raise SystemExit
     if extra > 0 and cnt != 1:
         print("No")
-        sys.exit(0)
+        raise SystemExit
     return total, best, cnt
 
-solve(root, 0)
+solve_sub(root)
 print("Yes")
