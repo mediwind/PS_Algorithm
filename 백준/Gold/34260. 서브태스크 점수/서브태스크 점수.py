@@ -2,42 +2,54 @@ import sys
 input = sys.stdin.readline
 MOD = 998244353
 
-P = int(input().rstrip())
-problem_counts = []
+P = int(input().strip())
+results = []
 for _ in range(P):
-    Ni, Mi = map(int, input().rstrip().split())
-    scores = list(map(int, input().rstrip().split()))
-    edges = [tuple(map(int, input().rstrip().split())) for _ in range(Mi)]
-    counts = [0] * 101
+    line = input().split()
+    if not line:
+        break
+    Ni = int(line[0])
+    Mi = int(line[1])
+
+    scores = list(map(int, input().split()))
+
+    adj = [0] * Ni
+    for _ in range(Mi):
+        u, v = map(int, input().split())
+        adj[v - 1] |= 1 << (u - 1)
+
+    for k in range(Ni):
+        for i in range(Ni):
+            if (adj[i] >> k) & 1:
+                adj[i] |= adj[k]
+
+    valid_count = 0
+    total_score_sum = 0
+
     for mask in range(1 << Ni):
-        valid = True
-        for x, y in edges:
-            if (mask >> (y - 1)) & 1 and not (mask >> (x - 1)) & 1:
-                valid = False
-                break
-        if not valid:
-            continue
-        total = 0
-        for bit in range(Ni):
-            if (mask >> bit) & 1:
-                total += scores[bit]
-        counts[total] += 1
-    problem_counts.append(counts)
+        is_valid = True
+        current_score = 0
+        for i in range(Ni):
+            if (mask >> i) & 1:
+                if (adj[i] & ~mask) != 0:
+                    is_valid = False
+                    break
+                current_score += scores[i]
+        if is_valid:
+            valid_count += 1
+            total_score_sum += current_score
 
-dp = [1]
-max_score = 0
-for counts in problem_counts:
-    new_max = max_score + 100
-    ndp = [0] * (new_max + 1)
-    for t in range(max_score + 1):
-        if dp[t] == 0:
-            continue
-        val = dp[t]
-        for s, cnt in enumerate(counts):
-            if cnt:
-                ndp[t + s] = (ndp[t + s] + val * cnt) % MOD
-    dp = ndp
-    max_score = new_max
+    results.append((valid_count, total_score_sum))
 
-answer = sum(t * dp[t] for t in range(max_score + 1)) % MOD
-print(answer)
+total_ways = 1
+for c, s in results:
+    total_ways = (total_ways * c) % MOD
+
+final_ans = 0
+for c, s in results:
+    term = (s * total_ways) % MOD
+    inv_c = pow(c, MOD - 2, MOD)
+    term = (term * inv_c) % MOD
+    final_ans = (final_ans + term) % MOD
+
+print(final_ans)
