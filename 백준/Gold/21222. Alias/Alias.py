@@ -31,7 +31,7 @@ def dijkstra(s, e):
 N, M = map(int, input().strip().split())
 name_to_id = dict()
 id_counter = 0
-graph = [list() for _ in range(N + 1)]
+graph = [list() for _ in range(N)]
 for _ in range(M):
     x, y, c = input().strip().split(); c = int(c)
     
@@ -47,7 +47,7 @@ for _ in range(M):
 
 Q = int(input())
 for _ in range(Q):
-    dy = [float('inf') for _ in range(N + 1)]
+    dy = [float('inf') for _ in range(N)]
     start, end = input().strip().split()
     s, e = name_to_id[start], name_to_id[end]
     dy[s] = 0
