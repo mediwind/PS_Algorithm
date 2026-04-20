@@ -1,5 +1,5 @@
 import sys
-import heapq
+from collections import deque
 input = sys.stdin.readline
 
 N = int(input())
@@ -11,88 +11,74 @@ for _ in range(N):
 S_length_str, S = input().split()
 S_length = int(S_length_str)
 
-# 1. 패턴 필터링 (불필요한 부분 문자열 제거)
-# 길이가 긴 문자열부터 확인하기 위해 내림차순 정렬
+# 1. 패턴 필터링 (기존과 동일하게 불필요한 부분 문자열 제거)
 patterns.sort(key=len, reverse=True)
 filtered_P = []
 for p in patterns:
     is_sub = False
     for fp in filtered_P:
-        # 더 긴 문자열 안에 p가 이미 포함되어 있다면 제외
         if p in fp:
             is_sub = True
             break
     if not is_sub:
         filtered_P.append(p)
 
-# 2. KMP 알고리즘을 이용한 패턴 위치 찾기
-pos = []
-for p in filtered_P:
+# 2. 파이썬 내장 C엔진(find)을 이용한 초고속 위치 탐색
+events = []
+for i, p in enumerate(filtered_P):
     p_len = len(p)
-    
-    # LPS(Longest Prefix Suffix) 배열 생성
-    lps = [0] * p_len
-    j = 0
-    for i in range(1, p_len):
-        while j > 0 and p[i] != p[j]:
-            j = lps[j - 1]
-        if p[i] == p[j]:
-            j += 1
-            lps[i] = j
-            
-    # KMP 탐색을 통한 모든 등장 위치(시작 인덱스) 기록
-    occurrences = []
-    j = 0
-    for i in range(S_length):
-        while j > 0 and S[i] != p[j]:
-            j = lps[j - 1]
-        if S[i] == p[j]:
-            if j == p_len - 1:
-                occurrences.append(i - p_len + 1)
-                j = lps[j]
-            else:
-                j += 1
-    pos.append(occurrences)
+    idx = S.find(p)
+    # KMP와 동일하게 겹치는 구간을 모두 찾기 위해 시작점을 1씩 밀면서 탐색
+    while idx != -1:
+        # (시작 인덱스, 끝 인덱스, 패턴 번호) 튜플로 저장
+        events.append((idx, idx + p_len, i))
+        idx = S.find(p, idx + 1)
 
-# 3. N-포인터(최소 힙)를 이용한 최단 구간 찾기
-heap = []
-max_end = -1
+# 3. 투 포인터(Sliding Window)와 단조 큐(Monotonic Queue)를 활용한 N-포인터 최적화
+events.sort(key=lambda x: x[0])  # 시작 인덱스 기준으로 오름차순 정렬
 
-# 초기화: 각 패턴의 첫 번째 등장 위치를 힙에 삽입하고, 가장 멀리 있는 끝점을 찾음
-for i in range(len(filtered_P)):
-    start_idx = pos[i][0]
-    heapq.heappush(heap, (start_idx, i))
-    
-    end_idx = start_idx + len(filtered_P[i])
-    if end_idx > max_end:
-        max_end = end_idx
-
-ptr = [0] * len(filtered_P)
+M = len(filtered_P)
 ans = float('inf')
 
-while True:
-    # 현재 윈도우에서 가장 앞에 있는(가장 작은) 시작점을 뽑음
-    min_start, p_idx = heapq.heappop(heap)
+counts = [0] * M       # 현재 윈도우 안의 각 패턴 개수
+unique_count = 0       # 윈도우 안에 존재하는 서로 다른 패턴의 종류 수
+left = 0
+q = deque()            # 현재 윈도우 내 '끝나는 인덱스'의 최댓값을 추적하기 위한 덱
+
+# right 포인터를 하나씩 늘려가며 윈도우를 확장
+for right in range(len(events)):
+    start, end, pid = events[right]
     
-    # 현재 윈도우의 길이로 정답 갱신
-    current_len = max_end - min_start
-    if current_len < ans:
-        ans = current_len
-        
-    # 가장 앞에 있던 포인터를 한 칸 뒤로 이동
-    ptr[p_idx] += 1
+    # 새로운 패턴이 추가됨
+    if counts[pid] == 0:
+        unique_count += 1
+    counts[pid] += 1
     
-    # 만약 어떤 패턴의 등장 위치를 끝까지 다 썼다면 더 이상 조건을 만족할 수 없으므로 종료
-    if ptr[p_idx] == len(pos[p_idx]):
-        break
-        
-    # 새로 이동한 위치를 힙에 넣고, 필요하다면 max_end 갱신
-    next_start = pos[p_idx][ptr[p_idx]]
-    next_end = next_start + len(filtered_P[p_idx])
+    # 단조 큐 유지: 새로 들어온 구간의 끝점보다 작거나 같은 기존 끝점들은 덱에서 제거 (가장 멀리 뻗은 끝점만 알면 되기 때문)
+    while q and events[q[-1]][1] <= end:
+        q.pop()
+    q.append(right)
     
-    if next_end > max_end:
-        max_end = next_end
+    # 모든 종류의 패턴이 윈도우 안에 모였다면 (조건 만족)
+    while unique_count == M:
+        # q[0]는 항상 현재 윈도우 안에서 가장 큰 끝(end) 값을 가짐
+        max_end = events[q[0]][1]
+        min_start = events[left][0]
         
-    heapq.heappush(heap, (next_start, p_idx))
+        # 정답 갱신
+        if max_end - min_start < ans:
+            ans = max_end - min_start
+            
+        # left 포인터를 당기기 위해 기존 left가 가리키던 패턴 제거
+        remove_pid = events[left][2]
+        counts[remove_pid] -= 1
+        if counts[remove_pid] == 0:
+            unique_count -= 1
+            
+        # 만약 덱의 최댓값이 방금 윈도우에서 빠진 left 인덱스였다면 덱에서도 제거
+        if q[0] == left:
+            q.popleft()
+            
+        left += 1
 
 print(ans)
