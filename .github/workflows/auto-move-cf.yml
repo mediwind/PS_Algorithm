@@ -1,0 +1,47 @@
+name: Auto Move Codeforces Submissions
+
+on:
+  push:
+    branches:
+      - main  # 만약 기본 브랜치 이름이 master라면 master로 변경해 주세요.
+
+jobs:
+  move-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Move Contest Folders to Codeforces/
+        run: |
+          mkdir -p Codeforces
+          moved=0
+          
+          # 최상위 경로에 있는 모든 폴더를 검사합니다
+          for dir in */ ; do
+            dirname="${dir%/}"
+            
+            # 폴더 이름이 숫자(코드포스 대회 번호, 예: 1419)로만 이루어져 있는지 확인
+            if [[ "$dirname" =~ ^[0-9]+$ ]]; then
+              echo "Moving $dirname to Codeforces/"
+              mkdir -p "Codeforces/$dirname"
+              
+              # 파일들을 안전하게 Codeforces/대회번호 폴더 안으로 병합 및 원본 삭제
+              rsync -a --remove-source-files "$dirname/" "Codeforces/$dirname/"
+              find "$dirname" -type d -empty -delete
+              moved=1
+            fi
+          done
+
+          # 이동된 파일이 있다면 자동으로 커밋하고 푸시합니다
+          if [ $moved -eq 1 ]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add Codeforces/
+            git commit -m "Auto-move Codeforces submissions to Codeforces folder"
+            git push
+          else
+            echo "No Codeforces directories to move."
+          fi
