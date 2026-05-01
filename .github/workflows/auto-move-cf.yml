@@ -39,7 +39,10 @@ jobs:
           if [ $moved -eq 1 ]; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
-            git add Codeforces/
+            
+            # 👇 핵심 수정 부분: Codeforces/ 만 추가하는 것이 아니라, 삭제된 원본 폴더 내역까지 모두(-A) 반영합니다.
+            git add -A
+            
             git commit -m "Auto-move Codeforces submissions to Codeforces folder"
             git push
           else
