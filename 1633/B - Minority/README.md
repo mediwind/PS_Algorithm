@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1633/problem/B" target="_blank" rel="noopener noreferrer">1633B — Minority</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1633B](https://codeforces.com/contest/1633/problem/B) |
+
+## Topics
+`greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Minority</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a string $$$s$$$, consisting only of characters '0' and '1'.</p><p>You have to choose a contiguous substring of $$$s$$$ and remove all occurrences of the character, which is a strict minority in it, from the substring.</p><p>That is, if the amount of '0's in the substring is strictly smaller than the amount of '1's, remove all occurrences of '0' from the substring. If the amount of '1's is strictly smaller than the amount of '0's, remove all occurrences of '1'. If the amounts are the same, do nothing.</p><p>You have to apply the operation <span class="tex-font-style-bf">exactly once</span>. What is the maximum amount of characters that can be removed?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of testcases.</p><p>The only line of each testcase contains a non-empty string $$$s$$$, consisting only of characters '0' and '1'. The length of $$$s$$$ doesn't exceed $$$2 \cdot 10^5$$$.</p><p>The total length of strings $$$s$$$ over all testcases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each testcase, print a single integer — the maximum amount of characters that can be removed after applying the operation <span class="tex-font-style-bf">exactly once</span>.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0024546946310900186" id="id00754311994606683" class="input-output-copier">Copy</div></div><pre id="id0024546946310900186"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">01</div><div class="test-example-line test-example-line-even test-example-line-2">1010101010111</div><div class="test-example-line test-example-line-odd test-example-line-3">00110001000</div><div class="test-example-line test-example-line-even test-example-line-4">1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0036954147944759863" id="id008702627641238385" class="input-output-copier">Copy</div></div><pre id="id0036954147944759863">0
+5
+3
+0
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first testcase, you can choose substrings "0", "1" or "01". In "0" the amount of '0' is $$$1$$$, the amount of '1' is $$$0$$$. '1' is a strict minority, thus all occurrences of it are removed from the substring. However, since there were $$$0$$$ of them, nothing changes. Same for "1". And in "01" neither of '0' or '1' is a strict minority. Thus, nothing changes. So there is no way to remove any characters.</p><p>In the second testcase, you can choose substring "10101010101". It contains $$$5$$$ characters '0' and $$$6$$$ characters '1'. '0' is a strict minority. Thus, you can remove all its occurrences. There exist other substrings that produce the same answer.</p><p>In the third testcase, you can choose substring "011000100". It contains $$$6$$$ characters '0' and $$$3$$$ characters '1'. '1' is a strict minority. Thus, you can remove all its occurrences.</p></div>
