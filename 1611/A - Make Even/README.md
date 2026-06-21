@@ -1,0 +1,26 @@
+<h2><a href="https://codeforces.com/contest/1611/problem/A" target="_blank" rel="noopener noreferrer">1611A — Make Even</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1611A](https://codeforces.com/contest/1611/problem/A) |
+
+## Topics
+`constructive algorithms` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Make Even</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Polycarp has an integer $$$n$$$ that doesn't contain the digit <span class="tex-font-style-tt">0</span>. He can do the following operation with his number several (possibly zero) times:</p><ul><li> Reverse the prefix of length $$$l$$$ (in other words, $$$l$$$ leftmost digits) of $$$n$$$. So, the leftmost digit is swapped with the $$$l$$$-th digit from the left, the second digit from the left swapped with ($$$l-1$$$)-th left, etc. For example, if $$$n=123456789$$$ and $$$l=5$$$, then the new value of $$$n$$$ will be $$$543216789$$$.</li></ul><p>Note that for different operations, the values of $$$l$$$ can be different. The number $$$l$$$ can be equal to the length of the number $$$n$$$ — in this case, the whole number $$$n$$$ is reversed.</p><p>Polycarp loves even numbers. Therefore, he wants to make his number even. At the same time, Polycarp is very impatient. He wants to do as few operations as possible.</p><p>Help Polycarp. Determine the minimum number of operations he needs to perform with the number $$$n$$$ to make it even or determine that this is impossible.</p><p>You need to answer $$$t$$$ independent test cases.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains the number $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>Each of the following $$$t$$$ lines contains one integer $$$n$$$ ($$$1 \le n  \lt  10^9$$$). It is guaranteed that the given number doesn't contain the digit <span class="tex-font-style-tt">0</span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print $$$t$$$ lines. On each line print one integer — the answer to the corresponding test case. If it is impossible to make an even number, print <span class="tex-font-style-tt">-1</span>.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002680055903631944" id="id0015259146986184446" class="input-output-copier">Copy</div></div><pre id="id002680055903631944">4
+3876
+387
+4489
+3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002618456619890721" id="id008639502809031594" class="input-output-copier">Copy</div></div><pre id="id002618456619890721">0
+2
+1
+-1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, $$$n=3876$$$, which is already an even number. Polycarp doesn't need to do anything, so the answer is $$$0$$$.</p><p>In the second test case, $$$n=387$$$. Polycarp needs to do $$$2$$$ operations:</p><ol><li> Select $$$l=2$$$ and reverse the prefix $$$\underline{38}7$$$. The number $$$n$$$ becomes $$$837$$$. This number is odd.</li><li> Select $$$l=3$$$ and reverse the prefix $$$\underline{837}$$$. The number $$$n$$$ becomes $$$738$$$. This number is even.</li></ol><p>It can be shown that $$$2$$$ is the minimum possible number of operations that Polycarp needs to do with his number to make it even.</p><p>In the third test case, $$$n=4489$$$. Polycarp can reverse the whole number (choose a prefix of length $$$l=4$$$). It will become $$$9844$$$ and this is an even number.</p><p>In the fourth test case, $$$n=3$$$. No matter how hard Polycarp tried, he would not be able to make an even number.</p></div>
