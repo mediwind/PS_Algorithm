@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 7 | 7 |
+| 8 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (1)
-- [constructive algorithms](#constructive-algorithms) (1)
+- [brute force](#brute-force) (2)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [greedy](#greedy) (2)
 - [implementation](#implementation) (1)
 - [math](#math) (5)
@@ -26,12 +26,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1633A | [Div. 7](https://codeforces.com/contest/1633/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1633/A%20-%20Div.%207/solution.py) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 
 ### greedy
