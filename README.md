@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 9 | 7 |
+| 10 | 7 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (2)
-- [greedy](#greedy) (2)
+- [greedy](#greedy) (3)
 - [implementation](#implementation) (1)
 - [math](#math) (6)
 - [number theory](#number-theory) (1)
@@ -41,6 +41,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
+| 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
 | 1633B | [Minority](https://codeforces.com/contest/1633/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1633/B%20-%20Minority/solution.py) |
 
 ### implementation
