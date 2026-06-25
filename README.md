@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 10 | 7 |
+| 11 | 7 |
 
 ---
 
@@ -14,9 +14,9 @@
 
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (2)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
 - [implementation](#implementation) (1)
-- [math](#math) (6)
+- [math](#math) (7)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (1)
 
@@ -42,6 +42,7 @@
 |---|---------|------------|----------|
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
+| 1615A | [Closing The Gap](https://codeforces.com/contest/1615/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1615/A%20-%20Closing%20The%20Gap/solution.py) |
 | 1633B | [Minority](https://codeforces.com/contest/1633/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1633/B%20-%20Minority/solution.py) |
 
 ### implementation
@@ -58,6 +59,7 @@
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
 | 1594A | [Consecutive Sum Riddle](https://codeforces.com/contest/1594/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1594/A%20-%20Consecutive%20Sum%20Riddle/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
+| 1615A | [Closing The Gap](https://codeforces.com/contest/1615/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1615/A%20-%20Closing%20The%20Gap/solution.py) |
 | 1618A | [Polycarp and Sums of Subsequences](https://codeforces.com/contest/1618/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/A%20-%20Polycarp%20and%20Sums%20of%20Subsequences/solution.py) |
 | 1619B | [Squares and Cubes](https://codeforces.com/contest/1619/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1619/B%20-%20Squares%20and%20Cubes/solution.py) |
 
