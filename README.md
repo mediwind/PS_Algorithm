@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 13 | 7 |
+| 14 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (2)
-- [constructive algorithms](#constructive-algorithms) (3)
+- [constructive algorithms](#constructive-algorithms) (4)
 - [greedy](#greedy) (4)
 - [implementation](#implementation) (1)
 - [math](#math) (8)
@@ -35,6 +35,7 @@
 |---|---------|------------|----------|
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
+| 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 
 ### greedy
