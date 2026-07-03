@@ -6,16 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 18 | 7 |
+| 19 | 8 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (3)
-- [constructive algorithms](#constructive-algorithms) (5)
+- [constructive algorithms](#constructive-algorithms) (6)
+- [dsu](#dsu) (1)
 - [greedy](#greedy) (6)
-- [implementation](#implementation) (1)
+- [implementation](#implementation) (2)
 - [math](#math) (11)
 - [number theory](#number-theory) (3)
 - [sortings](#sortings) (1)
@@ -39,6 +40,13 @@
 | 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 | 1614A | [Divan and a Store](https://codeforces.com/contest/1614/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1614/A%20-%20Divan%20and%20a%20Store/solution.py) |
+| 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
+
+### dsu
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
 
 ### greedy
 
@@ -56,6 +64,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1619B | [Squares and Cubes](https://codeforces.com/contest/1619/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1619/B%20-%20Squares%20and%20Cubes/solution.py) |
+| 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
 
 ### math
 
