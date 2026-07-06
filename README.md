@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 8 |
+| 22 | 8 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (6)
 - [dsu](#dsu) (1)
-- [greedy](#greedy) (8)
+- [greedy](#greedy) (9)
 - [implementation](#implementation) (3)
 - [math](#math) (12)
 - [number theory](#number-theory) (3)
@@ -58,6 +58,7 @@
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
+| 1604A | [Era](https://codeforces.com/contest/1604/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1604/A%20-%20Era/solution.py) |
 | 1614A | [Divan and a Store](https://codeforces.com/contest/1614/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1614/A%20-%20Divan%20and%20a%20Store/solution.py) |
 | 1615A | [Closing The Gap](https://codeforces.com/contest/1615/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1615/A%20-%20Closing%20The%20Gap/solution.py) |
 | 1633B | [Minority](https://codeforces.com/contest/1633/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1633/B%20-%20Minority/solution.py) |
