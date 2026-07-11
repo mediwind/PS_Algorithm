@@ -1,14 +1,19 @@
+import sys
+input = sys.stdin.readline
+ 
 t = int(input())
 for _ in range(t):
     n, k = map(int, input().split())
     arr = list(map(int, input().split()))
- 
-    while k > 0:
-        for i in range(n):
-            if arr[i] > 0:
-                arr[i] -= 1
-                arr[n - 1] += 1
-                break
-        k -= 1
- 
+    
+    for i in range(n - 1):
+        if k == 0:
+            break
+            
+        take = min(arr[i], k)
+        
+        arr[i] -= take
+        arr[n - 1] += take
+        k -= take
+        
     print(*arr)
