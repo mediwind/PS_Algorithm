@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 29 | 12 |
+| 30 | 12 |
 
 ---
 
@@ -14,13 +14,13 @@
 
 - [binary search](#binary-search) (2)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (7)
+- [constructive algorithms](#constructive-algorithms) (8)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [dsu](#dsu) (1)
-- [greedy](#greedy) (12)
+- [greedy](#greedy) (13)
 - [implementation](#implementation) (6)
-- [math](#math) (15)
+- [math](#math) (16)
 - [number theory](#number-theory) (3)
 - [sortings](#sortings) (2)
 - [two pointers](#two-pointers) (1)
@@ -49,6 +49,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
+| 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
@@ -81,6 +82,7 @@
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
+| 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1516A | [Tit for Tat](https://codeforces.com/contest/1516/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1516/A%20-%20Tit%20for%20Tat/solution.py) |
 | 1517A | [Sum of 2050](https://codeforces.com/contest/1517/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1517/A%20-%20Sum%20of%202050/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
@@ -110,6 +112,7 @@
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1506A | [Strange Table](https://codeforces.com/contest/1506/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1506/A%20-%20Strange%20Table/solution.py) |
 | 1514A | [Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1514/A%20-%20Perfectly%20Imperfect%20Array/solution.py) |
+| 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1517A | [Sum of 2050](https://codeforces.com/contest/1517/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1517/A%20-%20Sum%20of%202050/solution.py) |
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
