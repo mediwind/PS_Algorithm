@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 32 | 13 |
+| 33 | 14 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (2)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (9)
+- [constructive algorithms](#constructive-algorithms) (10)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [dsu](#dsu) (1)
@@ -22,6 +22,7 @@
 - [implementation](#implementation) (7)
 - [math](#math) (16)
 - [number theory](#number-theory) (3)
+- [probabilities](#probabilities) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (1)
 - [two pointers](#two-pointers) (1)
@@ -49,6 +50,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
@@ -136,6 +138,12 @@
 | 1514A | [Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1514/A%20-%20Perfectly%20Imperfect%20Array/solution.py) |
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
+
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 
 ### sortings
 
