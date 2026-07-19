@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 33 | 14 |
+| 34 | 15 |
 
 ---
 
@@ -18,13 +18,14 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [dsu](#dsu) (1)
-- [greedy](#greedy) (14)
+- [games](#games) (1)
+- [greedy](#greedy) (15)
 - [implementation](#implementation) (7)
 - [math](#math) (16)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (3)
-- [strings](#strings) (1)
+- [strings](#strings) (2)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -79,12 +80,19 @@
 |---|---------|------------|----------|
 | 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
 
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1516A | [Tit for Tat](https://codeforces.com/contest/1516/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1516/A%20-%20Tit%20for%20Tat/solution.py) |
@@ -157,6 +165,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
 
 ### two pointers
