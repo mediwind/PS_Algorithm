@@ -6,20 +6,21 @@
 
 | Total Problems | Topics |
 |---|---|
-| 36 | 15 |
+| 37 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (2)
+- [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (10)
+- [constructive algorithms](#constructive-algorithms) (11)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (1)
+- [dp](#dp) (2)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (17)
+- [greedy](#greedy) (18)
 - [implementation](#implementation) (7)
 - [math](#math) (16)
 - [number theory](#number-theory) (3)
@@ -36,6 +37,12 @@
 |---|---------|------------|----------|
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 
 ### brute force
 
@@ -55,6 +62,7 @@
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
+| 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
@@ -72,6 +80,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
 
 ### dsu
@@ -101,6 +110,7 @@
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
+| 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1573A | [Countdown](https://codeforces.com/contest/1573/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1573/A%20-%20Countdown/solution.py) |
 | 1604A | [Era](https://codeforces.com/contest/1604/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1604/A%20-%20Era/solution.py) |
 | 1614A | [Divan and a Store](https://codeforces.com/contest/1614/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1614/A%20-%20Divan%20and%20a%20Store/solution.py) |
