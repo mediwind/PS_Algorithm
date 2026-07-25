@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 40 | 17 |
+| 41 | 17 |
 
 ---
 
@@ -15,14 +15,14 @@
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (7)
-- [constructive algorithms](#constructive-algorithms) (11)
+- [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (2)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (21)
-- [implementation](#implementation) (7)
+- [implementation](#implementation) (8)
 - [math](#math) (17)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
@@ -64,6 +64,7 @@
 | 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
+| 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.py) |
@@ -137,6 +138,7 @@
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1512B | [Almost Rectangle](https://codeforces.com/contest/1512/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1512/B%20-%20Almost%20Rectangle/solution.py) |
+| 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
 | 1618B | [Missing Bigram](https://codeforces.com/contest/1618/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/B%20-%20Missing%20Bigram/solution.py) |
 | 1619B | [Squares and Cubes](https://codeforces.com/contest/1619/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1619/B%20-%20Squares%20and%20Cubes/solution.py) |
