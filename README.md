@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 43 | 17 |
+| 44 | 17 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (21)
-- [implementation](#implementation) (9)
+- [implementation](#implementation) (10)
 - [math](#math) (19)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
@@ -142,6 +142,7 @@
 | 1512B | [Almost Rectangle](https://codeforces.com/contest/1512/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1512/B%20-%20Almost%20Rectangle/solution.py) |
 | 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
+| 1602A | [Two Subsequences](https://codeforces.com/contest/1602/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1602/A%20-%20Two%20Subsequences/solution.py) |
 | 1618B | [Missing Bigram](https://codeforces.com/contest/1618/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/B%20-%20Missing%20Bigram/solution.py) |
 | 1619B | [Squares and Cubes](https://codeforces.com/contest/1619/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1619/B%20-%20Squares%20and%20Cubes/solution.py) |
 | 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
