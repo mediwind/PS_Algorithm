@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 48 | 17 |
+| 49 | 17 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (8)
+- [brute force](#brute-force) (9)
 - [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
@@ -23,7 +23,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (22)
 - [implementation](#implementation) (11)
-- [math](#math) (22)
+- [math](#math) (23)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (4)
@@ -49,6 +49,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
@@ -155,6 +156,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.py) |
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
