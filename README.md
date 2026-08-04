@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 50 | 17 |
+| 51 | 17 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (9)
+- [brute force](#brute-force) (10)
 - [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
@@ -23,7 +23,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (23)
 - [implementation](#implementation) (11)
-- [math](#math) (24)
+- [math](#math) (25)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (4)
@@ -53,6 +53,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
+| 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
@@ -164,6 +165,7 @@
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
+| 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
 | 1506A | [Strange Table](https://codeforces.com/contest/1506/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1506/A%20-%20Strange%20Table/solution.py) |
 | 1514A | [Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1514/A%20-%20Perfectly%20Imperfect%20Array/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
