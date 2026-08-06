@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 52 | 17 |
+| 53 | 17 |
 
 ---
 
@@ -14,19 +14,19 @@
 
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (10)
+- [brute force](#brute-force) (11)
 - [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (2)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (24)
+- [greedy](#greedy) (25)
 - [implementation](#implementation) (11)
-- [math](#math) (25)
-- [number theory](#number-theory) (3)
+- [math](#math) (26)
+- [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (5)
+- [sortings](#sortings) (6)
 - [strings](#strings) (4)
 - [two pointers](#two-pointers) (1)
 
@@ -54,6 +54,7 @@
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
+| 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1536A | [Omkar and Bad Story](https://codeforces.com/contest/1536/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1536/A%20-%20Omkar%20and%20Bad%20Story/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
@@ -128,6 +129,7 @@
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1516A | [Tit for Tat](https://codeforces.com/contest/1516/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1516/A%20-%20Tit%20for%20Tat/solution.py) |
 | 1517A | [Sum of 2050](https://codeforces.com/contest/1517/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1517/A%20-%20Sum%20of%202050/solution.py) |
+| 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
@@ -172,6 +174,7 @@
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
 | 1517A | [Sum of 2050](https://codeforces.com/contest/1517/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1517/A%20-%20Sum%20of%202050/solution.py) |
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
+| 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
 | 1582A | [Luntik and Concerts](https://codeforces.com/contest/1582/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1582/A%20-%20Luntik%20and%20Concerts/solution.py) |
@@ -192,6 +195,7 @@
 |---|---------|------------|----------|
 | 1514A | [Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1514/A%20-%20Perfectly%20Imperfect%20Array/solution.py) |
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
+| 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
 
 ### probabilities
@@ -207,6 +211,7 @@
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
+| 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
 | 1618A | [Polycarp and Sums of Subsequences](https://codeforces.com/contest/1618/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/A%20-%20Polycarp%20and%20Sums%20of%20Subsequences/solution.py) |
 
