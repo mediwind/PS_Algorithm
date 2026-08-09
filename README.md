@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 55 | 17 |
+| 56 | 17 |
 
 ---
 
@@ -23,8 +23,8 @@
 - [games](#games) (1)
 - [greedy](#greedy) (27)
 - [implementation](#implementation) (11)
-- [math](#math) (28)
-- [number theory](#number-theory) (5)
+- [math](#math) (29)
+- [number theory](#number-theory) (6)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
 - [strings](#strings) (4)
@@ -170,6 +170,7 @@
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
 | 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
 | 1506A | [Strange Table](https://codeforces.com/contest/1506/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1506/A%20-%20Strange%20Table/solution.py) |
@@ -198,6 +199,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
 | 1514A | [Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1514/A%20-%20Perfectly%20Imperfect%20Array/solution.py) |
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
