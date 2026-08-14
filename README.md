@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 60 | 18 |
+| 61 | 18 |
 
 ---
 
@@ -19,10 +19,10 @@
 - [constructive algorithms](#constructive-algorithms) (16)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (3)
+- [dp](#dp) (4)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (28)
+- [greedy](#greedy) (29)
 - [implementation](#implementation) (11)
 - [math](#math) (33)
 - [number theory](#number-theory) (6)
@@ -110,6 +110,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.py) |
+| 1559B | [Mocha and Red and Blue](https://codeforces.com/contest/1559/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1559/B%20-%20Mocha%20and%20Red%20and%20Blue/solution.py) |
 | 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
 
@@ -147,6 +148,7 @@
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.py) |
 | 1543B | [Customising the Track](https://codeforces.com/contest/1543/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/B%20-%20Customising%20the%20Track/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
+| 1559B | [Mocha and Red and Blue](https://codeforces.com/contest/1559/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1559/B%20-%20Mocha%20and%20Red%20and%20Blue/solution.py) |
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
 | 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
