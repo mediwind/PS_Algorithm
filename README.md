@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 18 |
+| 68 | 18 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (31)
 - [implementation](#implementation) (13)
-- [math](#math) (37)
+- [math](#math) (38)
 - [number theory](#number-theory) (7)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
@@ -215,6 +215,7 @@
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.py) |
 | 1594A | [Consecutive Sum Riddle](https://codeforces.com/contest/1594/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1594/A%20-%20Consecutive%20Sum%20Riddle/solution.py) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
+| 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.py) |
 | 1608A | [Find Array](https://codeforces.com/contest/1608/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1608/A%20-%20Find%20Array/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
