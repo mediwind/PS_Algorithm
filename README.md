@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 69 | 18 |
+| 70 | 18 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (15)
-- [combinatorics](#combinatorics) (1)
+- [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (2)
@@ -24,7 +24,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (32)
 - [implementation](#implementation) (13)
-- [math](#math) (39)
+- [math](#math) (40)
 - [number theory](#number-theory) (7)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
@@ -73,6 +73,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1543B | [Customising the Track](https://codeforces.com/contest/1543/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/B%20-%20Customising%20the%20Track/solution.py) |
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.py) |
 
 ### constructive algorithms
 
@@ -215,6 +216,7 @@
 | 1562A | [The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1562/A%20-%20The%20Miracle%20and%20the%20Sleeper/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
 | 1582A | [Luntik and Concerts](https://codeforces.com/contest/1582/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1582/A%20-%20Luntik%20and%20Concerts/solution.py) |
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.py) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.py) |
 | 1594A | [Consecutive Sum Riddle](https://codeforces.com/contest/1594/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1594/A%20-%20Consecutive%20Sum%20Riddle/solution.py) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
