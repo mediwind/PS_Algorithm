@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 71 | 18 |
+| 72 | 18 |
 
 ---
 
@@ -22,8 +22,8 @@
 - [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (33)
-- [implementation](#implementation) (13)
+- [greedy](#greedy) (34)
+- [implementation](#implementation) (14)
 - [math](#math) (41)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
@@ -146,6 +146,7 @@
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
+| 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
@@ -178,6 +179,7 @@
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1512B | [Almost Rectangle](https://codeforces.com/contest/1512/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1512/B%20-%20Almost%20Rectangle/solution.py) |
 | 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
