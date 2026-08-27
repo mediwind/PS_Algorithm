@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 73 | 18 |
+| 74 | 18 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (35)
 - [implementation](#implementation) (14)
-- [math](#math) (42)
+- [math](#math) (43)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
@@ -229,6 +229,7 @@
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.py) |
 | 1608A | [Find Array](https://codeforces.com/contest/1608/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1608/A%20-%20Find%20Array/solution.py) |
+| 1610A | [Anti Light's Cell Guessing](https://codeforces.com/contest/1610/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1610/A%20-%20Anti%20Light's%20Cell%20Guessing/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
 | 1613A | [Long Comparison](https://codeforces.com/contest/1613/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1613/A%20-%20Long%20Comparison/solution.py) |
