@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 74 | 18 |
+| 75 | 18 |
 
 ---
 
@@ -22,10 +22,10 @@
 - [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (35)
-- [implementation](#implementation) (14)
-- [math](#math) (43)
-- [number theory](#number-theory) (8)
+- [greedy](#greedy) (36)
+- [implementation](#implementation) (15)
+- [math](#math) (44)
+- [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
 - [strings](#strings) (5)
@@ -168,6 +168,7 @@
 | 1573A | [Countdown](https://codeforces.com/contest/1573/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1573/A%20-%20Countdown/solution.py) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.py) |
 | 1604A | [Era](https://codeforces.com/contest/1604/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1604/A%20-%20Era/solution.py) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.py) |
 | 1614A | [Divan and a Store](https://codeforces.com/contest/1614/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1614/A%20-%20Divan%20and%20a%20Store/solution.py) |
 | 1615A | [Closing The Gap](https://codeforces.com/contest/1615/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1615/A%20-%20Closing%20The%20Gap/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
@@ -186,6 +187,7 @@
 | 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
 | 1602A | [Two Subsequences](https://codeforces.com/contest/1602/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1602/A%20-%20Two%20Subsequences/solution.py) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.py) |
 | 1613A | [Long Comparison](https://codeforces.com/contest/1613/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1613/A%20-%20Long%20Comparison/solution.py) |
 | 1618B | [Missing Bigram](https://codeforces.com/contest/1618/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/B%20-%20Missing%20Bigram/solution.py) |
 | 1619B | [Squares and Cubes](https://codeforces.com/contest/1619/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1619/B%20-%20Squares%20and%20Cubes/solution.py) |
@@ -229,6 +231,7 @@
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.py) |
 | 1608A | [Find Array](https://codeforces.com/contest/1608/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1608/A%20-%20Find%20Array/solution.py) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.py) |
 | 1610A | [Anti Light's Cell Guessing](https://codeforces.com/contest/1610/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1610/A%20-%20Anti%20Light's%20Cell%20Guessing/solution.py) |
 | 1611A | [Make Even](https://codeforces.com/contest/1611/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/A%20-%20Make%20Even/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
@@ -252,6 +255,7 @@
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.py) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.py) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.py) |
 | 1617B | [GCD Problem](https://codeforces.com/contest/1617/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/B%20-%20GCD%20Problem/solution.py) |
 
 ### probabilities
