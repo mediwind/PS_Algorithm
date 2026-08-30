@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 18 |
+| 77 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (15)
@@ -32,6 +33,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1591B | [Array Eversion](https://codeforces.com/contest/1591/problem/B) | Unrated | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1591/B%20-%20Array%20Eversion/solution.py) |
 
 ### binary search
 
