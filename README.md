@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 77 | 19 |
+| 78 | 19 |
 
 ---
 
@@ -15,21 +15,21 @@
 - [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (15)
+- [brute force](#brute-force) (16)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (20)
+- [constructive algorithms](#constructive-algorithms) (21)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (37)
+- [greedy](#greedy) (38)
 - [implementation](#implementation) (15)
 - [math](#math) (44)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (6)
-- [strings](#strings) (5)
+- [strings](#strings) (6)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -63,6 +63,7 @@
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.py) |
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
+| 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
@@ -88,6 +89,7 @@
 |---|---------|------------|----------|
 | 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
+| 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
 | 1504A | [ Déjà Vu](https://codeforces.com/contest/1504/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1504/A%20-%20%20D%C3%A9j%C3%A0%20Vu/solution.py) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
@@ -158,6 +160,7 @@
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
+| 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1511A | [Review Site](https://codeforces.com/contest/1511/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1511/A%20-%20Review%20Site/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
@@ -290,6 +293,7 @@
 |---|---------|------------|----------|
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
+| 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
 | 1504A | [ Déjà Vu](https://codeforces.com/contest/1504/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1504/A%20-%20%20D%C3%A9j%C3%A0%20Vu/solution.py) |
 | 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1606/A%20-%20AB%20Balance/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
