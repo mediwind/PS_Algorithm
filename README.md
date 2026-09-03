@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 80 | 19 |
+| 81 | 19 |
 
 ---
 
@@ -17,13 +17,13 @@
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (17)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (21)
+- [constructive algorithms](#constructive-algorithms) (22)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (38)
+- [greedy](#greedy) (39)
 - [implementation](#implementation) (16)
 - [math](#math) (45)
 - [number theory](#number-theory) (9)
@@ -89,6 +89,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1433C | [Dominant Piranha](https://codeforces.com/contest/1433/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/C%20-%20Dominant%20Piranha/solution.py) |
 | 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
 | 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
@@ -152,6 +153,7 @@
 |---|---------|------------|----------|
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.py) |
+| 1433C | [Dominant Piranha](https://codeforces.com/contest/1433/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/C%20-%20Dominant%20Piranha/solution.py) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.py) |
