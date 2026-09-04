@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 81 | 19 |
+| 82 | 19 |
 
 ---
 
@@ -23,12 +23,12 @@
 - [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (39)
-- [implementation](#implementation) (16)
+- [greedy](#greedy) (40)
+- [implementation](#implementation) (17)
 - [math](#math) (45)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (6)
+- [sortings](#sortings) (7)
 - [strings](#strings) (6)
 - [two pointers](#two-pointers) (1)
 
@@ -161,6 +161,7 @@
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
+| 1480B | [The Great Hero](https://codeforces.com/contest/1480/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/B%20-%20The%20Great%20Hero/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
@@ -198,6 +199,7 @@
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1480B | [The Great Hero](https://codeforces.com/contest/1480/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/B%20-%20The%20Great%20Hero/solution.py) |
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1494A | [ABC String](https://codeforces.com/contest/1494/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1494/A%20-%20ABC%20String/solution.py) |
 | 1512B | [Almost Rectangle](https://codeforces.com/contest/1512/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1512/B%20-%20Almost%20Rectangle/solution.py) |
@@ -288,6 +290,7 @@
 |---|---------|------------|----------|
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1480B | [The Great Hero](https://codeforces.com/contest/1480/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/B%20-%20The%20Great%20Hero/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
