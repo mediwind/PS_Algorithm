@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 84 | 19 |
+| 85 | 19 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (6)
 - [dsu](#dsu) (1)
-- [games](#games) (1)
+- [games](#games) (2)
 - [greedy](#greedy) (41)
 - [implementation](#implementation) (18)
 - [math](#math) (46)
@@ -147,6 +147,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1373/B%20-%2001%20Game/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 
 ### greedy
