@@ -1,0 +1,26 @@
+<h2><a href="https://codeforces.com/contest/1335/problem/B" target="_blank" rel="noopener noreferrer">1335B — Construct the String</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1335B](https://codeforces.com/contest/1335/problem/B) |
+
+## Topics
+`constructive algorithms`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Construct the String</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given three positive integers $$$n$$$, $$$a$$$ and $$$b$$$. You have to construct a string $$$s$$$ of length $$$n$$$ consisting of lowercase Latin letters such that <span class="tex-font-style-bf">each substring</span> of length $$$a$$$ has <span class="tex-font-style-bf">exactly</span> $$$b$$$ distinct letters. It is guaranteed that the answer exists.</p><p>You have to answer $$$t$$$ independent test cases.</p><p>Recall that the substring $$$s[l \dots r]$$$ is the string $$$s_l, s_{l+1}, \dots, s_{r}$$$ and its length is $$$r - l + 1$$$. In this problem you are only interested in substrings of length $$$a$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains one integer $$$t$$$ ($$$1 \le t \le 2000$$$) — the number of test cases. Then $$$t$$$ test cases follow.</p><p>The only line of a test case contains three space-separated integers $$$n$$$, $$$a$$$ and $$$b$$$ ($$$1 \le a \le n \le 2000, 1 \le b \le \min(26, a)$$$), where $$$n$$$ is the length of the required string, $$$a$$$ is the length of a substring and $$$b$$$ is the required number of distinct letters in each substring of length $$$a$$$.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2000$$$ ($$$\sum n \le 2000$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print the answer — such a string $$$s$$$ of length $$$n$$$ consisting of lowercase Latin letters that <span class="tex-font-style-bf">each substring</span> of length $$$a$$$ has <span class="tex-font-style-bf">exactly</span> $$$b$$$ distinct letters. If there are multiple valid answers, print any of them. It is guaranteed that the answer exists.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0012326604707067679" id="id00882100930524625" class="input-output-copier">Copy</div></div><pre id="id0012326604707067679">4
+7 5 3
+6 1 1
+6 6 1
+5 2 2
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0017411416788467637" id="id00995383087157258" class="input-output-copier">Copy</div></div><pre id="id0017411416788467637">tleelte
+qwerty
+vvvvvv
+abcde
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case of the example, consider all the substrings of length $$$5$$$:</p><ul> <li> "<span class="tex-font-style-tt">tleel</span>": it contains $$$3$$$ distinct (unique) letters, </li><li> "<span class="tex-font-style-tt">leelt</span>": it contains $$$3$$$ distinct (unique) letters, </li><li> "<span class="tex-font-style-tt">eelte</span>": it contains $$$3$$$ distinct (unique) letters. </li></ul></div>
