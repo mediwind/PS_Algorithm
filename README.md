@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 91 | 19 |
+| 92 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (18)
@@ -38,6 +38,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1589C | [Two Arrays](https://codeforces.com/contest/1589/problem/C) | Unrated | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1589/C%20-%20Two%20Arrays/solution.py) |
 | 1591B | [Array Eversion](https://codeforces.com/contest/1591/problem/B) | Unrated | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1591/B%20-%20Array%20Eversion/solution.py) |
 
 ### binary search
