@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 97 | 19 |
+| 98 | 19 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [dsu](#dsu) (1)
 - [games](#games) (2)
 - [greedy](#greedy) (44)
-- [implementation](#implementation) (22)
+- [implementation](#implementation) (23)
 - [math](#math) (55)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
@@ -215,6 +215,7 @@
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
+| 1426B | [Symmetric Matrix](https://codeforces.com/contest/1426/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1426/B%20-%20Symmetric%20Matrix/solution.py) |
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1451B | [Non-Substring Subsequence](https://codeforces.com/contest/1451/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1451/B%20-%20Non-Substring%20Subsequence/solution.py) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
