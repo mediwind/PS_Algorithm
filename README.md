@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 101 | 19 |
+| 102 | 19 |
 
 ---
 
@@ -24,12 +24,12 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (46)
-- [implementation](#implementation) (24)
+- [implementation](#implementation) (25)
 - [math](#math) (56)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (11)
-- [strings](#strings) (7)
+- [strings](#strings) (8)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -215,6 +215,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
@@ -341,6 +342,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 1451B | [Non-Substring Subsequence](https://codeforces.com/contest/1451/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1451/B%20-%20Non-Substring%20Subsequence/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
