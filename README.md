@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 102 | 19 |
+| 103 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [*special](#special) (1)
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (4)
@@ -24,7 +25,8 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (46)
-- [implementation](#implementation) (25)
+- [implementation](#implementation) (26)
+- [interactive](#interactive) (1)
 - [math](#math) (56)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
@@ -33,6 +35,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.py) |
 
 ### Uncategorized
 
@@ -229,6 +237,7 @@
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.py) |
 | 1494A | [ABC String](https://codeforces.com/contest/1494/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1494/A%20-%20ABC%20String/solution.py) |
 | 1501B | [Napoleon Cake](https://codeforces.com/contest/1501/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1501/B%20-%20Napoleon%20Cake/solution.py) |
+| 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.py) |
 | 1512B | [Almost Rectangle](https://codeforces.com/contest/1512/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1512/B%20-%20Almost%20Rectangle/solution.py) |
 | 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
@@ -240,6 +249,12 @@
 | 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
 | 1623A | [Robot Cleaner](https://codeforces.com/contest/1623/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1623/A%20-%20Robot%20Cleaner/solution.py) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1624/B%20-%20Make%20AP/solution.py) |
+
+### interactive
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.py) |
 
 ### math
 
