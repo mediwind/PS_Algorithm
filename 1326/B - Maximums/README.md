@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/1326/problem/B" target="_blank" rel="noopener noreferrer">1326B — Maximums</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1326B](https://codeforces.com/contest/1326/problem/B) |
+
+## Topics
+`implementation` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Maximums</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alicia has an array, $$$a_1, a_2, \ldots, a_n$$$, of non-negative integers. For each $$$1 \leq i \leq n$$$, she has found a non-negative integer $$$x_i = max(0, a_1, \ldots, a_{i-1})$$$. Note that for $$$i=1$$$, $$$x_i = 0$$$.</p><p>For example, if Alicia had the array $$$a = \{0, 1, 2, 0, 3\}$$$, then $$$x = \{0, 0, 1, 2, 2\}$$$.</p><p>Then, she calculated an array, $$$b_1, b_2, \ldots, b_n$$$: $$$b_i = a_i - x_i$$$.</p><p>For example, if Alicia had the array $$$a = \{0, 1, 2, 0, 3\}$$$, $$$b = \{0-0, 1-0, 2-1, 0-2, 3-2\} = \{0, 1, 1, -2, 1\}$$$.</p><p>Alicia gives you the values $$$b_1, b_2, \ldots, b_n$$$ and asks you to restore the values $$$a_1, a_2, \ldots, a_n$$$. Can you help her solve the problem?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$n$$$ ($$$3 \leq n \leq 200\,000$$$) – the number of elements in Alicia's array.</p><p>The next line contains $$$n$$$ integers, $$$b_1, b_2, \ldots, b_n$$$ ($$$-10^9 \leq b_i \leq 10^9$$$).</p><p>It is guaranteed that for the given array $$$b$$$ there is a solution $$$a_1, a_2, \ldots, a_n$$$, for all elements of which the following is true: $$$0 \leq a_i \leq 10^9$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print $$$n$$$ integers, $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \leq a_i \leq 10^9$$$), such that if you calculate $$$x$$$ according to the statement, $$$b_1$$$ will be equal to $$$a_1 - x_1$$$, $$$b_2$$$ will be equal to $$$a_2 - x_2$$$, ..., and $$$b_n$$$ will be equal to $$$a_n - x_n$$$.</p><p>It is guaranteed that there exists at least one solution for the given tests. It can be shown that the solution is unique.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0040803503701991617" id="id0019831868801133534" class="input-output-copier">Copy</div></div><pre id="id0040803503701991617">5
+0 1 1 -2 1
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007836933570704153" id="id0035257284400709754" class="input-output-copier">Copy</div></div><pre id="id007836933570704153">0 1 2 0 3 </pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007140354053777227" id="id007451931077145582" class="input-output-copier">Copy</div></div><pre id="id007140354053777227">3
+1000 999999000 -1000000000
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0002486903884623448" id="id0045706123090085204" class="input-output-copier">Copy</div></div><pre id="id0002486903884623448">1000 1000000000 0 </pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009858469747960381" id="id0002684004241810456" class="input-output-copier">Copy</div></div><pre id="id009858469747960381">5
+2 1 2 2 3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009090037663769693" id="id002193864935967771" class="input-output-copier">Copy</div></div><pre id="id009090037663769693">2 3 5 7 10 </pre></div></div></div><div class="note"><div class="section-title">Note</div><p>The first test was described in the problem statement.</p><p>In the second test, if Alicia had an array $$$a = \{1000, 1000000000, 0\}$$$, then $$$x = \{0, 1000, 1000000000\}$$$ and $$$b = \{1000-0, 1000000000-1000, 0-1000000000\} = \{1000, 999999000, -1000000000\}$$$.</p></div>
