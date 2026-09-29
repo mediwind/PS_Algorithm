@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 105 | 21 |
+| 106 | 21 |
 
 ---
 
@@ -16,10 +16,10 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (20)
+- [brute force](#brute-force) (21)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (26)
-- [data structures](#data-structures) (1)
+- [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (8)
 - [dsu](#dsu) (1)
@@ -72,6 +72,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1343/A%20-%20Candies/solution.py) |
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1380/A%20-%20Three%20Indices/solution.py) |
 | 1430A | [Number of Apartments](https://codeforces.com/contest/1430/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1430/A%20-%20Number%20of%20Apartments/solution.py) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.py) |
@@ -132,6 +133,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1380/A%20-%20Three%20Indices/solution.py) |
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 
 ### dfs and similar
