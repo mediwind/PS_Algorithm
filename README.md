@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 106 | 21 |
+| 107 | 21 |
 
 ---
 
@@ -24,10 +24,10 @@
 - [dp](#dp) (8)
 - [dsu](#dsu) (1)
 - [games](#games) (3)
-- [greedy](#greedy) (46)
+- [greedy](#greedy) (47)
 - [implementation](#implementation) (27)
 - [interactive](#interactive) (1)
-- [math](#math) (58)
+- [math](#math) (59)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (11)
@@ -182,6 +182,7 @@
 | 1419A | [Digit Game](https://codeforces.com/contest/1419/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1419/A%20-%20Digit%20Game/solution.py) |
 | 1433C | [Dominant Piranha](https://codeforces.com/contest/1433/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/C%20-%20Dominant%20Piranha/solution.py) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.py) |
+| 1445B | [Elimination](https://codeforces.com/contest/1445/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1445/B%20-%20Elimination/solution.py) |
 | 1451B | [Non-Substring Subsequence](https://codeforces.com/contest/1451/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1451/B%20-%20Non-Substring%20Subsequence/solution.py) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
@@ -280,6 +281,7 @@
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.py) |
 | 1436B | [Prime Square](https://codeforces.com/contest/1436/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1436/B%20-%20Prime%20Square/solution.py) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.py) |
+| 1445B | [Elimination](https://codeforces.com/contest/1445/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1445/B%20-%20Elimination/solution.py) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.py) |
