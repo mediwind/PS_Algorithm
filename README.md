@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 110 | 21 |
+| 111 | 21 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [greedy](#greedy) (47)
 - [implementation](#implementation) (28)
 - [interactive](#interactive) (1)
-- [math](#math) (60)
+- [math](#math) (61)
 - [number theory](#number-theory) (10)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (11)
@@ -273,6 +273,7 @@
 | 1341A | [Nastya and Rice](https://codeforces.com/contest/1341/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1341/A%20-%20Nastya%20and%20Rice/solution.py) |
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1343/A%20-%20Candies/solution.py) |
 | 1350A | [Orac and Factors](https://codeforces.com/contest/1350/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1350/A%20-%20Orac%20and%20Factors/solution.py) |
+| 1354A | [Alarm Clock](https://codeforces.com/contest/1354/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1354/A%20-%20Alarm%20Clock/solution.py) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.py) |
 | 1401A | [Distance and Axis](https://codeforces.com/contest/1401/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1401/A%20-%20Distance%20and%20Axis/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
