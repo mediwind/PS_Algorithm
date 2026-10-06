@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 111 | 21 |
+| 112 | 21 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [dp](#dp) (8)
 - [dsu](#dsu) (1)
 - [games](#games) (3)
-- [greedy](#greedy) (47)
+- [greedy](#greedy) (48)
 - [implementation](#implementation) (28)
 - [interactive](#interactive) (1)
 - [math](#math) (61)
@@ -175,6 +175,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/160/A%20-%20Twins/solution.py) |
+| 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/337/A%20-%20Puzzles/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
