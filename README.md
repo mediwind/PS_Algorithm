@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 112 | 21 |
+| 113 | 21 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (48)
-- [implementation](#implementation) (28)
+- [implementation](#implementation) (29)
 - [interactive](#interactive) (1)
 - [math](#math) (61)
 - [number theory](#number-theory) (10)
@@ -228,6 +228,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/96/A%20-%20Football/solution.py) |
+| 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/133/A%20-%20HQ9%2B/solution.py) |
 | 1324A | [Yet Another Tetris Problem](https://codeforces.com/contest/1324/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1324/A%20-%20Yet%20Another%20Tetris%20Problem/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
