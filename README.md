@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 114 | 21 |
+| 115 | 21 |
 
 ---
 
@@ -24,13 +24,13 @@
 - [dp](#dp) (9)
 - [dsu](#dsu) (1)
 - [games](#games) (3)
-- [greedy](#greedy) (48)
+- [greedy](#greedy) (49)
 - [implementation](#implementation) (30)
 - [interactive](#interactive) (1)
 - [math](#math) (61)
 - [number theory](#number-theory) (10)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (11)
+- [sortings](#sortings) (12)
 - [strings](#strings) (9)
 - [two pointers](#two-pointers) (1)
 
@@ -176,6 +176,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 34B | [Sale](https://codeforces.com/contest/34/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/34/B%20-%20Sale/solution.py) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/160/A%20-%20Twins/solution.py) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/337/A%20-%20Puzzles/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
@@ -357,6 +358,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 34B | [Sale](https://codeforces.com/contest/34/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/34/B%20-%20Sale/solution.py) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/160/A%20-%20Twins/solution.py) |
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1420A | [Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1420/A%20-%20Cubes%20Sorting/solution.py) |
