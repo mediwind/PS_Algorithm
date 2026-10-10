@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 115 | 21 |
+| 116 | 21 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (49)
-- [implementation](#implementation) (30)
+- [implementation](#implementation) (31)
 - [interactive](#interactive) (1)
 - [math](#math) (61)
 - [number theory](#number-theory) (10)
@@ -235,6 +235,7 @@
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.py) |
 | 1324A | [Yet Another Tetris Problem](https://codeforces.com/contest/1324/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1324/A%20-%20Yet%20Another%20Tetris%20Problem/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
+| 1330A | [Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1330/A%20-%20Dreamoon%20and%20Ranking%20Collection/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
