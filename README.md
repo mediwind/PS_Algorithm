@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 121 | 21 |
+| 122 | 21 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (23)
+- [brute force](#brute-force) (24)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (26)
 - [data structures](#data-structures) (2)
@@ -25,9 +25,9 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (51)
-- [implementation](#implementation) (35)
+- [implementation](#implementation) (36)
 - [interactive](#interactive) (1)
-- [math](#math) (62)
+- [math](#math) (63)
 - [number theory](#number-theory) (11)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (13)
@@ -74,6 +74,7 @@
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1343/A%20-%20Candies/solution.py) |
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1351/B%20-%20Square%3F/solution.py) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1380/A%20-%20Three%20Indices/solution.py) |
 | 1430A | [Number of Apartments](https://codeforces.com/contest/1430/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1430/A%20-%20Number%20of%20Apartments/solution.py) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1462/C%20-%20Unique%20Number/solution.py) |
@@ -245,6 +246,7 @@
 | 1330A | [Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1330/A%20-%20Dreamoon%20and%20Ranking%20Collection/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.py) |
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1351/B%20-%20Square%3F/solution.py) |
 | 1406A | [Subset Mex](https://codeforces.com/contest/1406/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1406/A%20-%20Subset%20Mex/solution.py) |
 | 1419A | [Digit Game](https://codeforces.com/contest/1419/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1419/A%20-%20Digit%20Game/solution.py) |
 | 1426B | [Symmetric Matrix](https://codeforces.com/contest/1426/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1426/B%20-%20Symmetric%20Matrix/solution.py) |
@@ -288,6 +290,7 @@
 | 1341A | [Nastya and Rice](https://codeforces.com/contest/1341/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1341/A%20-%20Nastya%20and%20Rice/solution.py) |
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1343/A%20-%20Candies/solution.py) |
 | 1350A | [Orac and Factors](https://codeforces.com/contest/1350/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1350/A%20-%20Orac%20and%20Factors/solution.py) |
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1351/B%20-%20Square%3F/solution.py) |
 | 1354A | [Alarm Clock](https://codeforces.com/contest/1354/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1354/A%20-%20Alarm%20Clock/solution.py) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.py) |
 | 1401A | [Distance and Axis](https://codeforces.com/contest/1401/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1401/A%20-%20Distance%20and%20Axis/solution.py) |
