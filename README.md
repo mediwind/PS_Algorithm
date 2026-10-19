@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 123 | 21 |
+| 124 | 21 |
 
 ---
 
@@ -25,13 +25,13 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [greedy](#greedy) (52)
-- [implementation](#implementation) (36)
+- [implementation](#implementation) (37)
 - [interactive](#interactive) (1)
 - [math](#math) (63)
 - [number theory](#number-theory) (11)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (13)
-- [strings](#strings) (9)
+- [strings](#strings) (10)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -241,6 +241,7 @@
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
 | 451A | [Game With Sticks](https://codeforces.com/contest/451/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/451/A%20-%20Game%20With%20Sticks/solution.py) |
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.py) |
+| 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
 | 1324A | [Yet Another Tetris Problem](https://codeforces.com/contest/1324/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1324/A%20-%20Yet%20Another%20Tetris%20Problem/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
@@ -392,6 +393,7 @@
 |---|---------|------------|----------|
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 208A | [Dubstep](https://codeforces.com/contest/208/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/208/A%20-%20Dubstep/solution.py) |
+| 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
 | 1451B | [Non-Substring Subsequence](https://codeforces.com/contest/1451/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1451/B%20-%20Non-Substring%20Subsequence/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
