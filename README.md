@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 130 | 23 |
+| 131 | 23 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (55)
 - [implementation](#implementation) (41)
 - [interactive](#interactive) (1)
-- [math](#math) (64)
+- [math](#math) (65)
 - [number theory](#number-theory) (11)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (14)
@@ -305,6 +305,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/318/A%20-%20Even%20Odds/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
+| 1283B | [Candies Division](https://codeforces.com/contest/1283/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1283/B%20-%20Candies%20Division/solution.py) |
 | 1296B | [Food Buying](https://codeforces.com/contest/1296/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1296/B%20-%20Food%20Buying/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
