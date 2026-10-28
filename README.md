@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 132 | 23 |
+| 133 | 23 |
 
 ---
 
@@ -25,14 +25,14 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (55)
+- [greedy](#greedy) (56)
 - [implementation](#implementation) (42)
 - [interactive](#interactive) (1)
-- [math](#math) (65)
+- [math](#math) (66)
 - [number theory](#number-theory) (12)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (14)
-- [strings](#strings) (10)
+- [strings](#strings) (11)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
 
@@ -198,6 +198,7 @@
 | 320A | [Magic Numbers](https://codeforces.com/contest/320/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/320/A%20-%20Magic%20Numbers/solution.py) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/337/A%20-%20Puzzles/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.py) |
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
 | 1321A | [Contest for Robots](https://codeforces.com/contest/1321/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1321/A%20-%20Contest%20for%20Robots/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
@@ -309,6 +310,7 @@
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/318/A%20-%20Even%20Odds/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
 | 1283B | [Candies Division](https://codeforces.com/contest/1283/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1283/B%20-%20Candies%20Division/solution.py) |
+| 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.py) |
 | 1296B | [Food Buying](https://codeforces.com/contest/1296/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1296/B%20-%20Food%20Buying/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
 | 1337B | [Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1337/B%20-%20Kana%20and%20Dragon%20Quest%20game/solution.py) |
@@ -420,6 +422,7 @@
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 208A | [Dubstep](https://codeforces.com/contest/208/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/208/A%20-%20Dubstep/solution.py) |
 | 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
+| 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.py) |
 | 1451B | [Non-Substring Subsequence](https://codeforces.com/contest/1451/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1451/B%20-%20Non-Substring%20Subsequence/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1481A | [Space Navigation ](https://codeforces.com/contest/1481/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1481/A%20-%20Space%20Navigation%20/solution.py) |
