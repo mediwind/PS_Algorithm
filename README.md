@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 134 | 23 |
+| 135 | 23 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [games](#games) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (56)
-- [implementation](#implementation) (43)
+- [implementation](#implementation) (44)
 - [interactive](#interactive) (1)
 - [math](#math) (66)
 - [number theory](#number-theory) (12)
@@ -258,6 +258,7 @@
 | 149A | [Business trip](https://codeforces.com/contest/149/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/149/A%20-%20Business%20trip/solution.py) |
 | 199A | [Hexadecimal's theorem](https://codeforces.com/contest/199/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/199/A%20-%20Hexadecimal's%20theorem/solution.py) |
 | 275A | [Lights Out](https://codeforces.com/contest/275/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/275/A%20-%20Lights%20Out/solution.py) |
+| 276A | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/276/A%20-%20Lunch%20Rush/solution.py) |
 | 313A | [Ilya and Bank Account](https://codeforces.com/contest/313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/313/A%20-%20Ilya%20and%20Bank%20Account/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
 | 451A | [Game With Sticks](https://codeforces.com/contest/451/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/451/A%20-%20Game%20With%20Sticks/solution.py) |
