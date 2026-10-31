@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 135 | 23 |
+| 136 | 23 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [games](#games) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (56)
-- [implementation](#implementation) (44)
+- [implementation](#implementation) (45)
 - [interactive](#interactive) (1)
 - [math](#math) (66)
 - [number theory](#number-theory) (12)
@@ -263,6 +263,7 @@
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
 | 451A | [Game With Sticks](https://codeforces.com/contest/451/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/451/A%20-%20Game%20With%20Sticks/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
+| 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/474/A%20-%20Keyboard/solution.py) |
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.py) |
 | 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
 | 1206B | [Make Product Equal One](https://codeforces.com/contest/1206/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1206/B%20-%20Make%20Product%20Equal%20One/solution.py) |
