@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 139 | 23 |
+| 140 | 23 |
 
 ---
 
@@ -28,8 +28,8 @@
 - [greedy](#greedy) (58)
 - [implementation](#implementation) (46)
 - [interactive](#interactive) (1)
-- [math](#math) (67)
-- [number theory](#number-theory) (12)
+- [math](#math) (68)
+- [number theory](#number-theory) (13)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (15)
 - [strings](#strings) (11)
@@ -317,6 +317,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/318/A%20-%20Even%20Odds/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
+| 1238A | [Prime Subtraction](https://codeforces.com/contest/1238/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1238/A%20-%20Prime%20Subtraction/solution.py) |
 | 1272A | [Three Friends](https://codeforces.com/contest/1272/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1272/A%20-%20Three%20Friends/solution.py) |
 | 1283B | [Candies Division](https://codeforces.com/contest/1283/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1283/B%20-%20Candies%20Division/solution.py) |
 | 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.py) |
@@ -388,6 +389,7 @@
 |---|---------|------------|----------|
 | 199A | [Hexadecimal's theorem](https://codeforces.com/contest/199/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/199/A%20-%20Hexadecimal's%20theorem/solution.py) |
 | 313A | [Ilya and Bank Account](https://codeforces.com/contest/313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/313/A%20-%20Ilya%20and%20Bank%20Account/solution.py) |
+| 1238A | [Prime Subtraction](https://codeforces.com/contest/1238/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1238/A%20-%20Prime%20Subtraction/solution.py) |
 | 1324A | [Yet Another Tetris Problem](https://codeforces.com/contest/1324/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1324/A%20-%20Yet%20Another%20Tetris%20Problem/solution.py) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.py) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
