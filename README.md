@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 142 | 23 |
+| 143 | 23 |
 
 ---
 
@@ -25,13 +25,13 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (58)
-- [implementation](#implementation) (46)
+- [greedy](#greedy) (59)
+- [implementation](#implementation) (47)
 - [interactive](#interactive) (1)
 - [math](#math) (69)
 - [number theory](#number-theory) (14)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (15)
+- [sortings](#sortings) (16)
 - [strings](#strings) (11)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
@@ -201,6 +201,7 @@
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/337/A%20-%20Puzzles/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
 | 556A | [Case of the Zeros and Ones](https://codeforces.com/contest/556/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/556/A%20-%20Case%20of%20the%20Zeros%20and%20Ones/solution.py) |
+| 1216B | [Shooting](https://codeforces.com/contest/1216/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1216/B%20-%20Shooting/solution.py) |
 | 1272A | [Three Friends](https://codeforces.com/contest/1272/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1272/A%20-%20Three%20Friends/solution.py) |
 | 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.py) |
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
@@ -272,6 +273,7 @@
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.py) |
 | 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
 | 1206B | [Make Product Equal One](https://codeforces.com/contest/1206/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1206/B%20-%20Make%20Product%20Equal%20One/solution.py) |
+| 1216B | [Shooting](https://codeforces.com/contest/1216/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1216/B%20-%20Shooting/solution.py) |
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
 | 1324A | [Yet Another Tetris Problem](https://codeforces.com/contest/1324/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1324/A%20-%20Yet%20Another%20Tetris%20Problem/solution.py) |
 | 1326B | [Maximums](https://codeforces.com/contest/1326/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1326/B%20-%20Maximums/solution.py) |
@@ -417,6 +419,7 @@
 | 149A | [Business trip](https://codeforces.com/contest/149/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/149/A%20-%20Business%20trip/solution.py) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/160/A%20-%20Twins/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 1216B | [Shooting](https://codeforces.com/contest/1216/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1216/B%20-%20Shooting/solution.py) |
 | 1272A | [Three Friends](https://codeforces.com/contest/1272/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1272/A%20-%20Three%20Friends/solution.py) |
 | 1399A | [Remove Smallest](https://codeforces.com/contest/1399/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1399/A%20-%20Remove%20Smallest/solution.py) |
 | 1420A | [Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1420/A%20-%20Cubes%20Sorting/solution.py) |
