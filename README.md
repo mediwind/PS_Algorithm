@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 143 | 23 |
+| 144 | 23 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [games](#games) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (59)
-- [implementation](#implementation) (47)
+- [implementation](#implementation) (48)
 - [interactive](#interactive) (1)
 - [math](#math) (69)
 - [number theory](#number-theory) (14)
@@ -272,6 +272,7 @@
 | 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/474/A%20-%20Keyboard/solution.py) |
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.py) |
 | 977B | [Two-gram](https://codeforces.com/contest/977/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/977/B%20-%20Two-gram/solution.py) |
+| 1095B | [Array Stabilization](https://codeforces.com/contest/1095/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1095/B%20-%20Array%20Stabilization/solution.py) |
 | 1206B | [Make Product Equal One](https://codeforces.com/contest/1206/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1206/B%20-%20Make%20Product%20Equal%20One/solution.py) |
 | 1216B | [Shooting](https://codeforces.com/contest/1216/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1216/B%20-%20Shooting/solution.py) |
 | 1313A | [Fast Food Restaurant](https://codeforces.com/contest/1313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1313/A%20-%20Fast%20Food%20Restaurant/solution.py) |
