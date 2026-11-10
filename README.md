@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 145 | 23 |
+| 146 | 23 |
 
 ---
 
@@ -25,8 +25,8 @@
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (60)
-- [implementation](#implementation) (48)
+- [greedy](#greedy) (61)
+- [implementation](#implementation) (49)
 - [interactive](#interactive) (1)
 - [math](#math) (69)
 - [number theory](#number-theory) (14)
@@ -200,6 +200,7 @@
 | 320A | [Magic Numbers](https://codeforces.com/contest/320/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/320/A%20-%20Magic%20Numbers/solution.py) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/337/A%20-%20Puzzles/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 439A | [Devu, the Singer and Churu, the Joker](https://codeforces.com/contest/439/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/439/A%20-%20Devu%2C%20the%20Singer%20and%20Churu%2C%20the%20Joker/solution.py) |
 | 556A | [Case of the Zeros and Ones](https://codeforces.com/contest/556/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/556/A%20-%20Case%20of%20the%20Zeros%20and%20Ones/solution.py) |
 | 1216B | [Shooting](https://codeforces.com/contest/1216/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1216/B%20-%20Shooting/solution.py) |
 | 1272A | [Three Friends](https://codeforces.com/contest/1272/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1272/A%20-%20Three%20Friends/solution.py) |
@@ -268,6 +269,7 @@
 | 276A | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/276/A%20-%20Lunch%20Rush/solution.py) |
 | 313A | [Ilya and Bank Account](https://codeforces.com/contest/313/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/313/A%20-%20Ilya%20and%20Bank%20Account/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 439A | [Devu, the Singer and Churu, the Joker](https://codeforces.com/contest/439/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/439/A%20-%20Devu%2C%20the%20Singer%20and%20Churu%2C%20the%20Joker/solution.py) |
 | 451A | [Game With Sticks](https://codeforces.com/contest/451/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/451/A%20-%20Game%20With%20Sticks/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
 | 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/474/A%20-%20Keyboard/solution.py) |
