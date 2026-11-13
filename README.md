@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 148 | 23 |
+| 149 | 23 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (61)
 - [implementation](#implementation) (51)
 - [interactive](#interactive) (1)
-- [math](#math) (69)
+- [math](#math) (70)
 - [number theory](#number-theory) (14)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (16)
@@ -325,6 +325,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/318/A%20-%20Even%20Odds/solution.py) |
 | 460A | [Vasya and Socks](https://codeforces.com/contest/460/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/460/A%20-%20Vasya%20and%20Socks/solution.py) |
+| 1183B | [Equalize Prices](https://codeforces.com/contest/1183/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1183/B%20-%20Equalize%20Prices/solution.py) |
 | 1213A | [Chips Moving](https://codeforces.com/contest/1213/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1213/A%20-%20Chips%20Moving/solution.py) |
 | 1238A | [Prime Subtraction](https://codeforces.com/contest/1238/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1238/A%20-%20Prime%20Subtraction/solution.py) |
 | 1272A | [Three Friends](https://codeforces.com/contest/1272/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1272/A%20-%20Three%20Friends/solution.py) |
