@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 154 | 23 |
+| 155 | 23 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (30)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (28)
+- [constructive algorithms](#constructive-algorithms) (29)
 - [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (10)
@@ -125,6 +125,7 @@
 | 1504A | [ Déjà Vu](https://codeforces.com/contest/1504/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1504/A%20-%20%20D%C3%A9j%C3%A0%20Vu/solution.py) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.py) |
+| 1520C | [Not Adjacent Matrix](https://codeforces.com/contest/1520/problem/C) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1520/C%20-%20Not%20Adjacent%20Matrix/solution.py) |
 | 1521A | [Nastia and Nearly Good Numbers](https://codeforces.com/contest/1521/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1521/A%20-%20Nastia%20and%20Nearly%20Good%20Numbers/solution.py) |
 | 1525B | [Permutation Sort](https://codeforces.com/contest/1525/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/B%20-%20Permutation%20Sort/solution.py) |
 | 1530B | [Putting Plates](https://codeforces.com/contest/1530/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1530/B%20-%20Putting%20Plates/solution.py) |
