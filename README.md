@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 155 | 23 |
+| 156 | 23 |
 
 ---
 
@@ -14,21 +14,21 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (2)
+- [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (30)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (29)
+- [constructive algorithms](#constructive-algorithms) (30)
 - [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (10)
 - [dsu](#dsu) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (63)
+- [greedy](#greedy) (64)
 - [implementation](#implementation) (53)
 - [interactive](#interactive) (1)
-- [math](#math) (73)
+- [math](#math) (74)
 - [number theory](#number-theory) (15)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (17)
@@ -55,6 +55,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.py) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.py) |
 | 1611B | [Team Composition: Programmers and Mathematicians](https://codeforces.com/contest/1611/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1611/B%20-%20Team%20Composition%3A%20Programmers%20and%20Mathematicians/solution.py) |
 
@@ -121,6 +122,7 @@
 | 1436B | [Prime Square](https://codeforces.com/contest/1436/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1436/B%20-%20Prime%20Square/solution.py) |
 | 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.py) |
 | 1467A | [Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1467/A%20-%20Wizard%20of%20Orz/solution.py) |
+| 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.py) |
 | 1496A | [Split it!](https://codeforces.com/contest/1496/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1496/A%20-%20Split%20it!/solution.py) |
 | 1504A | [ Déjà Vu](https://codeforces.com/contest/1504/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1504/A%20-%20%20D%C3%A9j%C3%A0%20Vu/solution.py) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1509/A%20-%20Average%20Height/solution.py) |
@@ -227,6 +229,7 @@
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.py) |
 | 1472A | [Cards for Friends](https://codeforces.com/contest/1472/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1472/A%20-%20Cards%20for%20Friends/solution.py) |
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
+| 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.py) |
 | 1478A | [Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1478/A%20-%20Nezzar%20and%20Colorful%20Balls/solution.py) |
 | 1480A | [Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/A%20-%20Yet%20Another%20String%20Game/solution.py) |
 | 1480B | [The Great Hero](https://codeforces.com/contest/1480/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1480/B%20-%20The%20Great%20Hero/solution.py) |
@@ -366,6 +369,7 @@
 | 1473A | [Replacing Elements](https://codeforces.com/contest/1473/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1473/A%20-%20Replacing%20Elements/solution.py) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.py) |
+| 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.py) |
 | 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1490/A%20-%20Dense%20Array/solution.py) |
 | 1498A | [GCD Sum](https://codeforces.com/contest/1498/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1498/A%20-%20GCD%20Sum/solution.py) |
 | 1506A | [Strange Table](https://codeforces.com/contest/1506/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1506/A%20-%20Strange%20Table/solution.py) |
