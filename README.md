@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 159 | 24 |
+| 160 | 24 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (31)
+- [brute force](#brute-force) (32)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (30)
 - [data structures](#data-structures) (3)
@@ -32,7 +32,7 @@
 - [math](#math) (76)
 - [number theory](#number-theory) (16)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (19)
+- [sortings](#sortings) (20)
 - [strings](#strings) (13)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
@@ -100,6 +100,7 @@
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
 | 1555A | [PizzaForces](https://codeforces.com/contest/1555/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1555/A%20-%20PizzaForces/solution.py) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1598/A%20-%20Computer%20Game/solution.py) |
+| 1607C | [Minimum Extraction](https://codeforces.com/contest/1607/problem/C) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1607/C%20-%20Minimum%20Extraction/solution.py) |
 | 1614A | [Divan and a Store](https://codeforces.com/contest/1614/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1614/A%20-%20Divan%20and%20a%20Store/solution.py) |
 | 1617B | [GCD Problem](https://codeforces.com/contest/1617/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/B%20-%20GCD%20Problem/solution.py) |
 | 1623A | [Robot Cleaner](https://codeforces.com/contest/1623/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1623/A%20-%20Robot%20Cleaner/solution.py) |
@@ -467,6 +468,7 @@
 | 1497A | [Meximization](https://codeforces.com/contest/1497/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1497/A%20-%20Meximization/solution.py) |
 | 1501B | [Napoleon Cake](https://codeforces.com/contest/1501/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1501/B%20-%20Napoleon%20Cake/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
+| 1607C | [Minimum Extraction](https://codeforces.com/contest/1607/problem/C) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1607/C%20-%20Minimum%20Extraction/solution.py) |
 | 1613B | [Absent Remainder](https://codeforces.com/contest/1613/problem/B) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1613/B%20-%20Absent%20Remainder/solution.py) |
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
 | 1618A | [Polycarp and Sums of Subsequences](https://codeforces.com/contest/1618/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1618/A%20-%20Polycarp%20and%20Sums%20of%20Subsequences/solution.py) |
