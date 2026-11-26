@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 161 | 24 |
+| 162 | 24 |
 
 ---
 
@@ -17,19 +17,19 @@
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (33)
-- [combinatorics](#combinatorics) (2)
+- [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (30)
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (10)
 - [dsu](#dsu) (1)
 - [games](#games) (3)
-- [geometry](#geometry) (1)
+- [geometry](#geometry) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (66)
+- [greedy](#greedy) (67)
 - [implementation](#implementation) (54)
 - [interactive](#interactive) (1)
-- [math](#math) (77)
+- [math](#math) (78)
 - [number theory](#number-theory) (17)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (20)
@@ -111,6 +111,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1539/A%20-%20Contest%20Start/solution.py) |
 | 1543B | [Customising the Track](https://codeforces.com/contest/1543/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/B%20-%20Customising%20the%20Track/solution.py) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.py) |
 
@@ -199,6 +200,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1515B | [Phoenix and Puzzle](https://codeforces.com/contest/1515/problem/B) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1515/B%20-%20Phoenix%20and%20Puzzle/solution.py) |
+| 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1539/A%20-%20Contest%20Start/solution.py) |
 
 ### graphs
 
@@ -256,6 +258,7 @@
 | 1525B | [Permutation Sort](https://codeforces.com/contest/1525/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/B%20-%20Permutation%20Sort/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.py) |
+| 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1539/A%20-%20Contest%20Start/solution.py) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.py) |
 | 1543B | [Customising the Track](https://codeforces.com/contest/1543/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/B%20-%20Customising%20the%20Track/solution.py) |
 | 1546A | [AquaMoon and Two Arrays](https://codeforces.com/contest/1546/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1546/A%20-%20AquaMoon%20and%20Two%20Arrays/solution.py) |
@@ -396,6 +399,7 @@
 | 1525A | [Potion-making](https://codeforces.com/contest/1525/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1525/A%20-%20Potion-making/solution.py) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.py) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.py) |
+| 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1539/A%20-%20Contest%20Start/solution.py) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.py) |
 | 1543B | [Customising the Track](https://codeforces.com/contest/1543/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1543/B%20-%20Customising%20the%20Track/solution.py) |
 | 1550B | [Maximum Cost Deletion](https://codeforces.com/contest/1550/problem/B) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1550/B%20-%20Maximum%20Cost%20Deletion/solution.py) |
