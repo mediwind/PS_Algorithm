@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 162 | 24 |
+| 163 | 24 |
 
 ---
 
@@ -15,10 +15,10 @@
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (3)
-- [bitmasks](#bitmasks) (4)
+- [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (33)
 - [combinatorics](#combinatorics) (3)
-- [constructive algorithms](#constructive-algorithms) (30)
+- [constructive algorithms](#constructive-algorithms) (31)
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (10)
@@ -68,6 +68,7 @@
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.py) |
 | 1566B | [MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1566/B%20-%20MIN-MEX%20Cut/solution.py) |
 | 1625A | [Ancient Civilization](https://codeforces.com/contest/1625/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1625/A%20-%20Ancient%20Civilization/solution.py) |
+| 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.py) |
 
 ### brute force
 
@@ -149,6 +150,7 @@
 | 1617A | [Forbidden Subsequence](https://codeforces.com/contest/1617/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/A%20-%20Forbidden%20Subsequence/solution.py) |
 | 1617B | [GCD Problem](https://codeforces.com/contest/1617/problem/B) | 900 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1617/B%20-%20GCD%20Problem/solution.py) |
 | 1620A | [Equal or Not Equal](https://codeforces.com/contest/1620/problem/A) | 800 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1620/A%20-%20Equal%20or%20Not%20Equal/solution.py) |
+| 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Python 3](https://github.com/mediwind/PS_Algorithm/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.py) |
 
 ### data structures
 
